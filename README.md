@@ -221,9 +221,50 @@ random_forest/controlled/         TF-IDF泄漏受控实验
 fasttext/              FastText文本分类实验
 bert_finetuning/                  BERT微调、预测和API实验
 llm_prompting/                   LLM提示词分类和API实验
-bert_compression/          BERT教师/学生蒸馏和API实验
+bert_compression/          BERT量化、剪枝、蒸馏和API实验
 reports/random_forest/            随机森林实验报告
 artifacts/random_forest/          随机森林可上传的小体积实验产物
+```
+
+## 手写开发顺序
+
+如果从 0 到 1 手写本项目，建议按下面顺序推进：
+
+```text
+1. data/config.py
+2. data/data_eda.py
+3. data/build_dataset_v2.py
+4. random_forest/config.py
+5. random_forest/data_process.py
+6. random_forest/rf_train.py
+7. random_forest/rf_test.py
+8. random_forest/rf_predict_fun.py
+9. random_forest/v2/data_process_v2.py
+10. random_forest/v2/rf_train_v2.py
+11. random_forest/v2/rf_evaluate_v2.py
+12. random_forest/v2/rf_predict_v2.py
+13. random_forest/controlled/controlled_tfidf_experiment.py
+14. fasttext/data_process.py
+15. fasttext/fasttext_char_1_default.py
+16. fasttext/fasttext_word_1_default.py
+17. fasttext/fasttext_predict_fun.py
+18. fasttext/fasttext_char_2_auto.py
+19. fasttext/fasttext_word_2_auto.py
+20. bert_finetuning/config.py
+21. bert_finetuning/bert_train.py
+22. bert_finetuning/bert_predict_fun.py
+23. llm_prompting/deepseek_predict_fun.py
+24. bert_compression/bert_quantization.py
+25. bert_compression/bert_pruning.py
+26. bert_compression/student_train.py
+27. 各模块 api_flask_server.py
+28. 各模块 streamlit_app.py
+```
+
+最小闭环优先级：
+
+```text
+读取数据 -> 清洗检查 -> 特征提取 -> 训练 -> 评估 -> 单条预测 -> API/页面展示
 ```
 
 ## 当前报告
@@ -353,13 +394,13 @@ python llm_prompting\api_flask_server.py
 运行 BERT 动态量化：
 
 ```powershell
-python bert_finetuning\bert_quantization.py
+python bert_compression\bert_quantization.py
 ```
 
 运行 BERT 非结构化剪枝：
 
 ```powershell
-python bert_finetuning\bert_pruning.py
+python bert_compression\bert_pruning.py
 ```
 
 运行教师/学生模型预测：
