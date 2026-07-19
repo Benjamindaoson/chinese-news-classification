@@ -1,0 +1,106 @@
+{
+  "split": "process_test.csv",
+  "accuracy": 0.739039039039039,
+  "macro_precision": 0.7716970114579145,
+  "macro_recall": 0.7390359621664591,
+  "macro_f1": 0.7475134981702309,
+  "weighted_f1": 0.7474865002249214,
+  "total_inference_seconds": 2.1253261000092607,
+  "average_inference_ms": 0.21274535535628233,
+  "samples_per_second": 4700.455144251261,
+  "per_class": [
+    {
+      "label": 0,
+      "class_name": "finance",
+      "precision": 0.8169642857142857,
+      "recall": 0.732,
+      "f1": 0.7721518987341772,
+      "support": 1000
+    },
+    {
+      "label": 1,
+      "class_name": "realty",
+      "precision": 0.8671963677639046,
+      "recall": 0.7693856998992951,
+      "f1": 0.8153681963713981,
+      "support": 993
+    },
+    {
+      "label": 2,
+      "class_name": "stocks",
+      "precision": 0.7016042780748664,
+      "recall": 0.6579739217652959,
+      "f1": 0.6790890269151139,
+      "support": 997
+    },
+    {
+      "label": 3,
+      "class_name": "education",
+      "precision": 0.8408644400785854,
+      "recall": 0.856,
+      "f1": 0.848364717542121,
+      "support": 1000
+    },
+    {
+      "label": 4,
+      "class_name": "science",
+      "precision": 0.7832957110609481,
+      "recall": 0.694,
+      "f1": 0.735949098621421,
+      "support": 1000
+    },
+    {
+      "label": 5,
+      "class_name": "society",
+      "precision": 0.8044943820224719,
+      "recall": 0.716,
+      "f1": 0.7576719576719577,
+      "support": 1000
+    },
+    {
+      "label": 6,
+      "class_name": "politics",
+      "precision": 0.75,
+      "recall": 0.693,
+      "f1": 0.7203742203742204,
+      "support": 1000
+    },
+    {
+      "label": 7,
+      "class_name": "sports",
+      "precision": 0.9302915082382763,
+      "recall": 0.734,
+      "f1": 0.820570150922303,
+      "support": 1000
+    },
+    {
+      "label": 8,
+      "class_name": "game",
+      "precision": 0.7844183564567769,
+      "recall": 0.735,
+      "f1": 0.7589055240061952,
+      "support": 1000
+    },
+    {
+      "label": 9,
+      "class_name": "entertainment",
+      "precision": 0.43784078516902947,
+      "recall": 0.803,
+      "f1": 0.5666901905434015,
+      "support": 1000
+    }
+  ],
+  "experiment": "existing_course_artifact",
+  "model_files": {
+    "tfidf": {
+      "path": "D:\\投满条配套资料\\08-live_code\\01-data\\model\\tfidf_model.pkl",
+      "size_bytes": 741542,
+      "sha256": "1481dd58c154d9fb6d435509c103590055c70647f637079d13593dbabba41450"
+    },
+    "rf": {
+      "path": "D:\\投满条配套资料\\08-live_code\\01-data\\model\\rf_model.pkl",
+      "size_bytes": 178554208,
+      "sha256": "7f4057d3e7c70831d4c2ec609a3395a2c3d798a0ef7137dbc99fff72defbf447"
+    }
+  }
+}

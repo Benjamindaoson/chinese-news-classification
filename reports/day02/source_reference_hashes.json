@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-07-19T16:35:32+08:00",
+  "meaning": "current-state reference baseline; not a retroactive before_hash",
+  "current_reference_sha256": {
+    "02-rf/config.py": "0c2a9a3cf1f3ef59e054feac63883970c596ea3cbf2232dba519d451a3a41131",
+    "02-rf/data_process.py": "23b1e8b6bce18a9686240616ba2947589d77b9d50caeee554e2ba815e23026f5",
+    "02-rf/rf_train.py": "c7a30bafd3e8332df4ebaa06505ccfbcd63fa7cc3210552560a15d892c596df6",
+    "02-rf/rf_test.py": "ebd709d85036a23346d62eeee78b549335659d799d8465e747021a9e9d5123da",
+    "02-rf/rf_predict_fun.py": "54f1c1160575b68ec3a9f14c9556a43778dbd3d2e27ff67b93d8b567cccdd50e",
+    "02-rf/api_flask_server.py": "6a1c2234b0a040da6ba9cf560330da55eb4666ce639b220aee47c7553c5254db",
+    "02-rf/api_test.py": "faf8c29ea0e72d310f54ac866f322fa85e4ce1bfd3d566420cd0488a18188118",
+    "02-rf/streamlit_app.py": "cfbf7a1c8136ff302ae7a42449c0213131703f4d9612d28cb612b57fa211a685"
+  }
+}

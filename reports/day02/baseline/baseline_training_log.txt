@@ -1,0 +1,8 @@
+baseline_reproduction
+training_rows_read=20000
+training_rows_after_split=16000
+training_seconds=32.222580300003756
+tfidf_vocabulary_size=34956
+validation_vocabulary_leakage=True
+accuracy=0.7413413413413413
+macro_f1=0.7492828855485869

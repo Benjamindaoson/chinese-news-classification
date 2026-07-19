@@ -1,0 +1,18 @@
+{
+  "protected_hashes_before": {
+    "01-data\\process_train.csv": "31a574881c6296745de990beab13bfed07e118a60ccaa59ae8f46f8186b1cfe4",
+    "01-data\\process_dev.csv": "ed8ce8822d5b9a4a21e032fdd68d3cdd119f539a450be99f2493fd2f0010a1a5",
+    "01-data\\process_test.csv": "85899e04312a831b5de67c7ae2ee0dfc55327702c1b095ee418971062aa39364",
+    "01-data\\model\\tfidf_model.pkl": "1481dd58c154d9fb6d435509c103590055c70647f637079d13593dbabba41450",
+    "01-data\\model\\rf_model.pkl": "7f4057d3e7c70831d4c2ec609a3395a2c3d798a0ef7137dbc99fff72defbf447"
+  },
+  "protected_hashes_after": {
+    "01-data\\process_train.csv": "31a574881c6296745de990beab13bfed07e118a60ccaa59ae8f46f8186b1cfe4",
+    "01-data\\process_dev.csv": "ed8ce8822d5b9a4a21e032fdd68d3cdd119f539a450be99f2493fd2f0010a1a5",
+    "01-data\\process_test.csv": "85899e04312a831b5de67c7ae2ee0dfc55327702c1b095ee418971062aa39364",
+    "01-data\\model\\tfidf_model.pkl": "1481dd58c154d9fb6d435509c103590055c70647f637079d13593dbabba41450",
+    "01-data\\model\\rf_model.pkl": "7f4057d3e7c70831d4c2ec609a3395a2c3d798a0ef7137dbc99fff72defbf447"
+  },
+  "protected_hashes_unchanged": true,
+  "mode": "v2"
+}

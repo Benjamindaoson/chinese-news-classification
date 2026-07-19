@@ -1,0 +1,30 @@
+{
+  "mode": "read_only_evaluation",
+  "dev": {
+    "path": "D:\\投满条配套资料\\08-live_code\\01-data\\v2\\process_dev_v2.csv",
+    "rows": 9981,
+    "accuracy": 0.671175232942591,
+    "macro_precision": 0.7524481394968141,
+    "macro_recall": 0.6710651902636584,
+    "macro_f1": 0.6912792645038699,
+    "weighted_f1": 0.6912994487780344
+  },
+  "test": {
+    "path": "D:\\投满条配套资料\\08-live_code\\01-data\\v2\\process_test_v2.csv",
+    "rows": 9983,
+    "accuracy": 0.6859661424421517,
+    "macro_precision": 0.7627165820999343,
+    "macro_recall": 0.6858918641854295,
+    "macro_f1": 0.7062501505061727,
+    "weighted_f1": 0.7062318037645584
+  },
+  "model_sha256_before": {
+    "tfidf_v2.pkl": "e384ec34f3bddf1e18c45c2cbdafdc389c3f5c9afa4bb73cb531487e87f5907c",
+    "rf_v2.pkl": "3a370c1827f123bf1627c2bcbbfe2c01392bb042121317506ac5347c5b88e76e"
+  },
+  "model_sha256_after": {
+    "tfidf_v2.pkl": "e384ec34f3bddf1e18c45c2cbdafdc389c3f5c9afa4bb73cb531487e87f5907c",
+    "rf_v2.pkl": "3a370c1827f123bf1627c2bcbbfe2c01392bb042121317506ac5347c5b88e76e"
+  },
+  "model_hashes_unchanged": true
+}

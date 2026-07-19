@@ -1,0 +1,313 @@
+﻿source_split,original_line_number,original_text,normalized_text,label,removal_reason,duplicate_of_split
+train,3044,盛大游戏制作人体系：分权的游戏,盛大游戏制作人体系:分权的游戏,4,conflicting_labels,
+train,3413,金山与盛大游戏合资被指让出运营权,金山与盛大游戏合资被指让出运营权,4,conflicting_labels,
+train,6616,新年一月份基金重仓股近七成跌幅超大盘,新年一月份基金重仓股近七成跌幅超大盘,2,conflicting_labels,
+train,9077,次新基金节后将携800亿入市,次新基金节后将携800亿入市,0,conflicting_labels,
+train,10700,通胀忧虑暂得缓解 主投港股QDII基金普涨,通胀忧虑暂得缓解 主投港股QDII基金普涨,0,conflicting_labels,
+train,11433,中石油证实20亿团购北京楼房事件,中石油证实20亿团购北京楼房事件,1,conflicting_labels,
+train,11900,环保电力也想入股新纪元期货,环保电力也想入股新纪元期货,2,conflicting_labels,
+train,13957,新年一月份基金重仓股近七成跌幅超大盘,新年一月份基金重仓股近七成跌幅超大盘,0,conflicting_labels,
+train,19741,纽约股市中国概念股一周综述,纽约股市中国概念股一周综述,4,conflicting_labels,
+train,20743,万科放弃追求第一 踏空7个月土储只够2.5年,万科放弃追求第一 踏空7个月土储只够2.5年,1,conflicting_labels,
+train,21096,大摩：《梦幻西游》PCU创出历史新高,大摩:《梦幻西游》PCU创出历史新高,4,conflicting_labels,
+train,21552,分析：假如Google做游戏,分析:假如Google做游戏,8,conflicting_labels,
+train,21621,俄罗斯电信高管将iPhone手机比作毒品,俄罗斯电信高管将iPhone手机比作毒品,4,conflicting_labels,
+train,22804,通胀忧虑暂得缓解 主投港股QDII基金普涨,通胀忧虑暂得缓解 主投港股QDII基金普涨,2,conflicting_labels,
+train,24894,国土资源部门将严查囤地开发商,国土资源部门将严查囤地开发商,1,conflicting_labels,
+train,25639,王亚伟豪赌玉石涨价 东方金钰成大黑马,王亚伟豪赌玉石涨价 东方金钰成大黑马,2,conflicting_labels,
+train,26700,欧盟委员会证实已收到对谷歌的反垄断投诉,欧盟委员会证实已收到对谷歌的反垄断投诉,2,conflicting_labels,
+train,29381,两房抵押贷款收益率升至一个月高点,两房抵押贷款收益率升至一个月高点,2,conflicting_labels,
+train,34203,听障女孩在京中考 与家人蜗居地下室7年(组图),听障女孩在京中考 与家人蜗居地下室7年(组图),5,conflicting_labels,
+train,37142,9岁幼童身绑iPad 2入境被查获,9岁幼童身绑iPad 2入境被查获,4,conflicting_labels,
+train,44172,欧洲阿丽亚娜火箭成功发射两颗通信卫星,欧洲阿丽亚娜火箭成功发射两颗通信卫星,6,conflicting_labels,
+train,44425,82岁老人第11次上高考考场,82岁老人第11次上高考考场,3,conflicting_labels,
+train,45228,第二次全国土地调查抽查核实工作启动,第二次全国土地调查抽查核实工作启动,6,conflicting_labels,
+train,45404,第二次全国土地调查抽查核实工作启动,第二次全国土地调查抽查核实工作启动,1,conflicting_labels,
+train,46851,国家适当提高今年稻谷最低收购价格,国家适当提高今年稻谷最低收购价格,6,conflicting_labels,
+train,48864,中石油证实20亿团购北京楼房事件,中石油证实20亿团购北京楼房事件,5,conflicting_labels,
+train,52406,男子代人炒期货亏百万 遭索债杀死委托人,男子代人炒期货亏百万 遭索债杀死委托人,5,conflicting_labels,
+train,57815,全国总工会建议试点学生在父母务工地参加高考,全国总工会建议试点学生在父母务工地参加高考,3,conflicting_labels,
+train,59462,盛大游戏朱继盛 网游就是信息化,盛大游戏朱继盛 网游就是信息化,8,conflicting_labels,
+train,60964,螺纹钢等长材价格将见底回升,螺纹钢等长材价格将见底回升,1,conflicting_labels,
+train,62455,房屋动迁组长半年内骗补偿金724万,房屋动迁组长半年内骗补偿金724万,5,conflicting_labels,
+train,72665,次新基金节后将携800亿入市,次新基金节后将携800亿入市,2,conflicting_labels,
+train,75003,中华网人事调整 高福祥出任总经理,中华网人事调整 高福祥出任总经理,8,conflicting_labels,
+train,77544,82岁老人第11次上高考考场,82岁老人第11次上高考考场,5,conflicting_labels,
+train,77743,王亚伟豪赌玉石涨价 东方金钰成大黑马,王亚伟豪赌玉石涨价 东方金钰成大黑马,0,conflicting_labels,
+train,79830,21岁儿子起诉母亲索要出国留学费用,21岁儿子起诉母亲索要出国留学费用,5,conflicting_labels,
+train,82645,大陆赴台读大学学生将不允许留台工作,大陆赴台读大学学生将不允许留台工作,3,conflicting_labels,
+train,83467,龙源技术净利降八成 基金加仓遭遇业绩地雷,龙源技术净利降八成 基金加仓遭遇业绩地雷,0,conflicting_labels,
+train,87614,豪赌下半年政策转折 基金经理大胆调仓,豪赌下半年政策转折 基金经理大胆调仓,0,conflicting_labels,
+train,89002,商务部否认柬埔寨对我国援建办公楼不满意,商务部否认柬埔寨对我国援建办公楼不满意,6,conflicting_labels,
+train,90325,夫妇用外挂替网游玩家代练获刑,夫妇用外挂替网游玩家代练获刑,5,conflicting_labels,
+train,90674,越南网游仍在收紧 中国厂商或需调整,越南网游仍在收紧 中国厂商或需调整,8,conflicting_labels,
+train,91977,欧洲阿丽亚娜火箭成功发射两颗通信卫星,欧洲阿丽亚娜火箭成功发射两颗通信卫星,4,conflicting_labels,
+train,97591,夫妇用外挂替网游玩家代练获刑,夫妇用外挂替网游玩家代练获刑,8,conflicting_labels,
+train,98308,邓普顿基金遭香港证监公开谴责,邓普顿基金遭香港证监公开谴责,2,conflicting_labels,
+train,98888,格林尼治时间或将被原子时取代 已使用120余年,格林尼治时间或将被原子时取代 已使用120余年,4,conflicting_labels,
+train,100724,金山与盛大游戏合资被指让出运营权,金山与盛大游戏合资被指让出运营权,8,conflicting_labels,
+train,100855,越南网游仍在收紧 中国厂商或需调整,越南网游仍在收紧 中国厂商或需调整,4,conflicting_labels,
+train,102778,俄罗斯电信高管将iPhone手机比作毒品,俄罗斯电信高管将iPhone手机比作毒品,8,conflicting_labels,
+train,102791,中华网股票交易代码改成“CHIND”,中华网股票交易代码改成“CHIND”,8,conflicting_labels,
+train,103032,盛大游戏制作人体系：分权的游戏,盛大游戏制作人体系:分权的游戏,8,conflicting_labels,
+train,104134,盛大游戏朱继盛 网游就是信息化,盛大游戏朱继盛 网游就是信息化,4,conflicting_labels,
+train,104572,欧盟委员会证实已收到对谷歌的反垄断投诉,欧盟委员会证实已收到对谷歌的反垄断投诉,4,conflicting_labels,
+train,105065,保利地产澄清公司领导涉陈绍基案传闻,保利地产澄清公司领导涉陈绍基案传闻,2,conflicting_labels,
+train,105539,大摩：《梦幻西游》PCU创出历史新高,大摩:《梦幻西游》PCU创出历史新高,8,conflicting_labels,
+train,105626,商务部否认柬埔寨对我国援建办公楼不满意,商务部否认柬埔寨对我国援建办公楼不满意,1,conflicting_labels,
+train,105965,马化腾微博打破沉默 称金山游戏遭360拦截,马化腾微博打破沉默 称金山游戏遭360拦截,4,conflicting_labels,
+train,106715,患病偏瘫老师教书32年 6次高考上线被拒(图),患病偏瘫老师教书32年 6次高考上线被拒(图),5,conflicting_labels,
+train,107180,两房抵押贷款收益率升至一个月高点,两房抵押贷款收益率升至一个月高点,1,conflicting_labels,
+train,107272,高考改革方案确定 部分科目实行一年多考,高考改革方案确定 部分科目实行一年多考,6,conflicting_labels,
+train,108772,格林尼治时间或将被原子时取代 已使用120余年,格林尼治时间或将被原子时取代 已使用120余年,6,conflicting_labels,
+train,110953,邓普顿基金遭香港证监公开谴责,邓普顿基金遭香港证监公开谴责,0,conflicting_labels,
+train,117234,纽约股市中国概念股一周综述,纽约股市中国概念股一周综述,2,conflicting_labels,
+train,117373,患病偏瘫老师教书32年 6次高考上线被拒(图),患病偏瘫老师教书32年 6次高考上线被拒(图),3,conflicting_labels,
+train,118245,马化腾微博打破沉默 称金山游戏遭360拦截,马化腾微博打破沉默 称金山游戏遭360拦截,8,conflicting_labels,
+train,118533,保利地产澄清公司领导涉陈绍基案传闻,保利地产澄清公司领导涉陈绍基案传闻,1,conflicting_labels,
+train,119313,中行去年净利超千亿 明年底前或无股权融资计划,中行去年净利超千亿 明年底前或无股权融资计划,0,conflicting_labels,
+train,120491,环保电力也想入股新纪元期货,环保电力也想入股新纪元期货,0,conflicting_labels,
+train,122989,教育部称大三学生可应征入伍 服役完后可复学,教育部称大三学生可应征入伍 服役完后可复学,6,conflicting_labels,
+train,124185,金地集团逼近增发价 基金一个月狂抛1400万股,金地集团逼近增发价 基金一个月狂抛1400万股,0,conflicting_labels,
+train,132432,李克强：将在内地推出港股组合ETF,李克强:将在内地推出港股组合ETF,0,conflicting_labels,
+train,134141,少女网吧内连续通宵两晚 沉睡公厕被误认为女尸,少女网吧内连续通宵两晚 沉睡公厕被误认为女尸,5,conflicting_labels,
+train,134315,ThinkEquity建议买入威瑞信,ThinkEquity建议买入威瑞信,2,conflicting_labels,
+train,134898,摩根士丹利拟拆分旗下最大自营交易部门,摩根士丹利拟拆分旗下最大自营交易部门,2,conflicting_labels,
+train,138067,内地基金公司在港首只ETF15日上市,内地基金公司在港首只ETF15日上市,2,conflicting_labels,
+train,142520,广东高考作文题在网上提前曝光系作弊行为,广东高考作文题在网上提前曝光系作弊行为,3,conflicting_labels,
+train,143981,少女网吧内连续通宵两晚 沉睡公厕被误认为女尸,少女网吧内连续通宵两晚 沉睡公厕被误认为女尸,4,conflicting_labels,
+train,144106,龙源技术净利降八成 基金加仓遭遇业绩地雷,龙源技术净利降八成 基金加仓遭遇业绩地雷,2,conflicting_labels,
+train,145325,9岁幼童身绑iPad 2入境被查获,9岁幼童身绑iPad 2入境被查获,8,conflicting_labels,
+train,146147,万科放弃追求第一 踏空7个月土储只够2.5年,万科放弃追求第一 踏空7个月土储只够2.5年,2,conflicting_labels,
+train,147983,虚拟货币交易所得征税 玩家3大疑问破解,虚拟货币交易所得征税 玩家3大疑问破解,8,conflicting_labels,
+train,149067,房屋动迁组长半年内骗补偿金724万,房屋动迁组长半年内骗补偿金724万,1,conflicting_labels,
+train,149249,全国总工会建议试点学生在父母务工地参加高考,全国总工会建议试点学生在父母务工地参加高考,6,conflicting_labels,
+train,150275,虚拟货币交易所得征税 玩家3大疑问破解,虚拟货币交易所得征税 玩家3大疑问破解,4,conflicting_labels,
+train,155865,卖房人将精装房内物品全部搬走引争议,卖房人将精装房内物品全部搬走引争议,1,conflicting_labels,
+train,156716,内地基金公司在港首只ETF15日上市,内地基金公司在港首只ETF15日上市,0,conflicting_labels,
+train,159135,高考改革方案确定 部分科目实行一年多考,高考改革方案确定 部分科目实行一年多考,3,conflicting_labels,
+train,159490,听障女孩在京中考 与家人蜗居地下室7年(组图),听障女孩在京中考 与家人蜗居地下室7年(组图),3,conflicting_labels,
+train,161000,教育部称大三学生可应征入伍 服役完后可复学,教育部称大三学生可应征入伍 服役完后可复学,3,conflicting_labels,
+train,162089,螺纹钢等长材价格将见底回升,螺纹钢等长材价格将见底回升,0,conflicting_labels,
+train,162942,中华网人事调整 高福祥出任总经理,中华网人事调整 高福祥出任总经理,4,conflicting_labels,
+train,165275,豪赌下半年政策转折 基金经理大胆调仓,豪赌下半年政策转折 基金经理大胆调仓,2,conflicting_labels,
+train,167124,摩根士丹利拟拆分旗下最大自营交易部门,摩根士丹利拟拆分旗下最大自营交易部门,4,conflicting_labels,
+train,169265,李克强：将在内地推出港股组合ETF,李克强:将在内地推出港股组合ETF,2,conflicting_labels,
+train,170145,大陆赴台读大学学生将不允许留台工作,大陆赴台读大学学生将不允许留台工作,6,conflicting_labels,
+train,170345,ThinkEquity建议买入威瑞信,ThinkEquity建议买入威瑞信,4,conflicting_labels,
+train,170524,分析：假如Google做游戏,分析:假如Google做游戏,4,conflicting_labels,
+train,171299,男子代人炒期货亏百万 遭索债杀死委托人,男子代人炒期货亏百万 遭索债杀死委托人,0,conflicting_labels,
+train,172946,21岁儿子起诉母亲索要出国留学费用,21岁儿子起诉母亲索要出国留学费用,3,conflicting_labels,
+dev,2415,关注蓝筹和重组概念 地产板块有补涨机会,关注蓝筹和重组概念 地产板块有补涨机会,1,conflicting_labels,
+dev,3413,国土资源部门将严查囤地开发商,国土资源部门将严查囤地开发商,6,conflicting_labels,
+dev,5317,金地集团逼近增发价 基金一个月狂抛1400万股,金地集团逼近增发价 基金一个月狂抛1400万股,1,conflicting_labels,
+dev,6988,卖房人将精装房内物品全部搬走引争议,卖房人将精装房内物品全部搬走引争议,5,conflicting_labels,
+dev,9486,中行去年净利超千亿 明年底前或无股权融资计划,中行去年净利超千亿 明年底前或无股权融资计划,2,conflicting_labels,
+test,2490,国家适当提高今年稻谷最低收购价格,国家适当提高今年稻谷最低收购价格,0,conflicting_labels,
+test,2634,玉米涨价VS玉米油走弱,玉米涨价VS玉米油走弱,0,conflicting_labels,
+test,6913,中华网股票交易代码改成“CHIND”,中华网股票交易代码改成“CHIND”,4,conflicting_labels,
+test,7828,广东高考作文题在网上提前曝光系作弊行为,广东高考作文题在网上提前曝光系作弊行为,5,conflicting_labels,
+test,9234,纽约股市中国概念股一周综述,纽约股市中国概念股一周综述,2,conflicting_labels,
+test,9657,玉米涨价VS玉米油走弱,玉米涨价VS玉米油走弱,2,conflicting_labels,
+test,9716,关注蓝筹和重组概念 地产板块有补涨机会,关注蓝筹和重组概念 地产板块有补涨机会,2,conflicting_labels,
+dev,345,每日晚间实力机构点评热门个股精选,每日晚间实力机构点评热门个股精选,2,duplicate_with_test,test
+dev,4211,颐和原著将成不可复制豪宅典范(组图),颐和原著将成不可复制豪宅典范(组图),1,duplicate_with_test,test
+dev,4502,明日股市三大猜想及应对策略,明日股市三大猜想及应对策略,2,duplicate_with_test,test
+dev,4864,顺义香悦四季2-3居及独栋别墅在售均价18000,顺义香悦四季2-3居及独栋别墅在售均价18000,1,duplicate_with_test,test
+dev,7319,山东本科批志愿填报结束 高考录取7月2日开始,山东本科批志愿填报结束 高考录取7月2日开始,3,duplicate_with_test,test
+dev,9165,新股上市一览,新股上市一览,2,duplicate_with_test,test
+dev,9620,证券通盈利和评级综合调整一览表,证券通盈利和评级综合调整一览表,2,duplicate_with_test,test
+train,2316,昌平纳帕海运河3-4居独栋别墅8月8-9日开盘,昌平纳帕海运河3-4居独栋别墅8月8-9日开盘,1,duplicate_with_test,test
+train,2634,明日股市三大猜想及应对策略,明日股市三大猜想及应对策略,2,duplicate_with_test,test
+train,2850,恒基地产与新世界交换土地 涉资6亿,恒基地产与新世界交换土地 涉资6亿,1,duplicate_with_test,test
+train,3041,证券通强势个股最新估值,证券通强势个股最新估值,2,duplicate_with_test,test
+train,3206,趣味：爱因斯坦出的测试 只有2%的人能答对,趣味:爱因斯坦出的测试 只有2%的人能答对,3,duplicate_with_test,test
+train,3965,周末影响市场重要资讯回顾,周末影响市场重要资讯回顾,2,duplicate_with_test,test
+train,3980,证券通机构天天涨幅榜背景大揭秘,证券通机构天天涨幅榜背景大揭秘,2,duplicate_with_dev,dev
+train,4160,燕郊星河185项目60平起1-3居在售全款97折,燕郊星河185项目60平起1-3居在售全款97折,1,duplicate_with_dev,dev
+train,4610,丰台7克拉25-72平大开间起价23000全款95折,丰台7克拉25-72平大开间起价23000全款95折,1,duplicate_with_test,test
+train,5156,大兴东亚马赛公馆83平起2-3居在售全款97折,大兴东亚马赛公馆83平起2-3居在售全款97折,1,duplicate_with_dev,dev
+train,5828,昌平雍�台80平起板楼在售均价14700元享97折,昌平雍�台80平起板楼在售均价14700元享97折,1,duplicate_with_test,test
+train,6125,石景山融景城三期预计下半年开盘均价待定(图),石景山融景城三期预计下半年开盘均价待定(图),1,duplicate_with_test,test
+train,6530,盘面解读：八大机构预测今日市场走向,盘面解读:八大机构预测今日市场走向,2,duplicate_with_dev,dev
+train,6643,华尔街早餐：周一美股盘前必读,华尔街早餐:周一美股盘前必读,2,duplicate_with_dev,dev
+train,6772,大兴金色漫香郡57平起9月下旬开盘均价10000,大兴金色漫香郡57平起9月下旬开盘均价10000,1,duplicate_with_dev,dev
+train,7737,房山纯新盘绿地新都会国际花都11月开盘,房山纯新盘绿地新都会国际花都11月开盘,1,duplicate_with_test,test
+train,8039,香港上市公司最新股权变动一览,香港上市公司最新股权变动一览,2,duplicate_with_dev,dev
+train,8290,顺义富力湾余6套独栋别墅元旦购房就送IPad,顺义富力湾余6套独栋别墅元旦购房就送IPad,1,duplicate_with_test,test
+train,8304,香港市场今日交易提示,香港市场今日交易提示,2,duplicate_with_test,test
+train,8550,金钼股份：钼业龙头 期待钼行业机会来临,金钼股份:钼业龙头 期待钼行业机会来临,2,duplicate_with_dev,dev
+train,8956,海淀宜品上层56平起0-1居精装现房可享97折,海淀宜品上层56平起0-1居精装现房可享97折,1,duplicate_with_dev,dev
+train,10130,华尔街早餐：周二美股盘前必读,华尔街早餐:周二美股盘前必读,2,duplicate_with_test,test
+train,10492,亦庄天鹅堡悦湖180平起叠拼别墅在售全款91折,亦庄天鹅堡悦湖180平起叠拼别墅在售全款91折,1,duplicate_with_dev,dev
+train,10892,股市调整 基金仓位骤降5个百分点,股市调整 基金仓位骤降5个百分点,0,duplicate_with_dev,dev
+train,11563,荣誉勋章制作人：是阿富汗选择了我们,荣誉勋章制作人:是阿富汗选择了我们,8,duplicate_with_dev,dev
+train,11640,金隅七零九零板楼小户型58万起全款97折(图),金隅七零九零板楼小户型58万起全款97折(图),1,duplicate_with_dev,dev
+train,12187,证券通盈利和评级综合调整一览表,证券通盈利和评级综合调整一览表,2,duplicate_with_test,test
+train,13377,每日晚间实力机构点评热门个股精选,每日晚间实力机构点评热门个股精选,2,duplicate_with_test,test
+train,13782,一批券商个股最新评级及推金股,一批券商个股最新评级及推金股,2,duplicate_with_test,test
+train,14130,福州三网民诽谤案二审维持原判,福州三网民诽谤案二审维持原判,4,duplicate_with_dev,dev
+train,14415,东坝金泰丽富嘉园50平起经济适用房在售(图),东坝金泰丽富嘉园50平起经济适用房在售(图),1,duplicate_with_test,test
+train,14586,天津翠金湖美墅岛5月1日推新均价8900全款96折,天津翠金湖美墅岛5月1日推新均价8900全款96折,1,duplicate_with_dev,dev
+train,15418,南宁炒楼花：利益之手催开诱惑之花,南宁炒楼花:利益之手催开诱惑之花,1,duplicate_with_dev,dev
+train,16143,周五消息解读和操作策略,周五消息解读和操作策略,2,duplicate_with_test,test
+train,17022,通州新华联运河湾100平米2居在售均价20000,通州新华联运河湾100平米2居在售均价20000,1,duplicate_with_dev,dev
+train,17474,最新盈利预测与投资评级变化,最新盈利预测与投资评级变化,2,duplicate_with_test,test
+train,17611,回龙观首开智慧社2居在售乐居独家团购享折上折,回龙观首开智慧社2居在售乐居独家团购享折上折,1,duplicate_with_dev,dev
+train,18494,西南四环天龙华鹤现房公寓在售总价98万起(图),西南四环天龙华鹤现房公寓在售总价98万起(图),1,duplicate_with_test,test
+train,18879,东5环中建玲珑山45平起0-3居11月中下旬开盘,东5环中建玲珑山45平起0-3居11月中下旬开盘,1,duplicate_with_dev,dev
+train,19178,北京两限房质量问题追踪 豆渣墙排查本周结束,北京两限房质量问题追踪 豆渣墙排查本周结束,1,duplicate_with_dev,dev
+train,20007,国展公馆地铁现房小户型7月开盘均价8500(图),国展公馆地铁现房小户型7月开盘均价8500(图),1,duplicate_with_dev,dev
+train,21496,门头沟绿岛水岸5月中下旬开盘可享折上折,门头沟绿岛水岸5月中下旬开盘可享折上折,1,duplicate_with_test,test
+train,21928,朝阳北京新天地精装92平起2-4居现房均价24000,朝阳北京新天地精装92平起2-4居现房均价24000,1,duplicate_with_test,test
+train,22121,大兴旭辉紫郡120平起2-4居18500元最高减4万,大兴旭辉紫郡120平起2-4居18500元最高减4万,1,duplicate_with_test,test
+train,22759,东五环富力又一城通透板楼两居均价14500元(图),东五环富力又一城通透板楼两居均价14500元(图),1,duplicate_with_dev,dev
+train,22838,趣味测试：你是个合格的家长吗(图),趣味测试:你是个合格的家长吗(图),3,duplicate_with_test,test
+train,23752,以建筑收藏生活 龙湖好望山月底强劲入市(组图),以建筑收藏生活 龙湖好望山月底强劲入市(组图),1,duplicate_with_dev,train
+train,24106,东三环华远九都汇90平起1-3居在售全款享96折,东三环华远九都汇90平起1-3居在售全款享96折,1,duplicate_with_test,test
+train,24140,昌平领秀慧谷57平起1-3居28日开盘均价15100,昌平领秀慧谷57平起1-3居28日开盘均价15100,1,duplicate_with_dev,dev
+train,24636,大兴润枫锦尚3期3月开盘15000元全款97折(图),大兴润枫锦尚3期3月开盘15000元全款97折(图),1,duplicate_with_dev,dev
+train,26413,通州K2清水湾小户型在售均价25000元,通州K2清水湾小户型在售均价25000元,1,duplicate_with_test,test
+train,26558,周二消息解读和操作策略,周二消息解读和操作策略,2,duplicate_with_dev,dev
+train,27030,亦庄融科香雪兰溪80平起2-3居在售均价17000,亦庄融科香雪兰溪80平起2-3居在售均价17000,1,duplicate_with_test,test
+train,27277,碧桂园求解六大财务难题,碧桂园求解六大财务难题,1,duplicate_with_dev,dev
+train,27945,北5环中国铁建国际城2期152平4居尾房在售(图),北5环中国铁建国际城2期152平4居尾房在售(图),1,duplicate_with_dev,dev
+train,29000,新天际现房楼王7月18日开盘14000元2万抵4万,新天际现房楼王7月18日开盘14000元2万抵4万,1,duplicate_with_dev,dev
+train,29051,大兴东亚马赛公馆9月18日开盘现每日优惠300,大兴东亚马赛公馆9月18日开盘现每日优惠300,1,duplicate_with_dev,dev
+train,29407,亦庄悦廷新房源待售V计划团购总房款直降8万,亦庄悦廷新房源待售V计划团购总房款直降8万,1,duplicate_with_dev,dev
+train,29593,证券通板块及个股调研早报,证券通板块及个股调研早报,2,duplicate_with_test,test
+train,29946,上奥世纪中心酒店公寓现房59万起全款98折(图),上奥世纪中心酒店公寓现房59万起全款98折(图),1,duplicate_with_test,test
+train,31171,大兴保利茉莉公馆22日推1-4居17000元优惠1万5,大兴保利茉莉公馆22日推1-4居17000元优惠1万5,1,duplicate_with_dev,dev
+train,31958,通州金隅花石匠90平2居16000元1万抵10万优惠,通州金隅花石匠90平2居16000元1万抵10万优惠,1,duplicate_with_dev,dev
+train,32392,海淀上地领秀新硅谷三居板楼7月开盘(图),海淀上地领秀新硅谷三居板楼7月开盘(图),1,duplicate_with_test,test
+train,32933,海淀宜品上层56平精装小户型起价16200享97折,海淀宜品上层56平精装小户型起价16200享97折,1,duplicate_with_test,test
+train,33252,酒店式公寓香城郦舍2010年5月开盘价格待定(图),酒店式公寓香城郦舍2010年5月开盘价格待定(图),1,duplicate_with_test,test
+train,33489,楼市刚需开始释放  品牌房企优质项目获青睐,楼市刚需开始释放 品牌房企优质项目获青睐,1,duplicate_with_test,test
+train,34494,变3 LOL双重奏LinkinPark演绎主题曲,变3 LOL双重奏LinkinPark演绎主题曲,8,duplicate_with_test,test
+train,35189,融通内需驱动基金拟首次分红,融通内需驱动基金拟首次分红,0,duplicate_with_dev,dev
+train,36362,房山绿地新都会国际花都板楼2-3居在售享95折,房山绿地新都会国际花都板楼2-3居在售享95折,1,duplicate_with_test,test
+train,36883,大兴金色漫香郡预计9月开盘均价11000办卡优惠,大兴金色漫香郡预计9月开盘均价11000办卡优惠,1,duplicate_with_dev,dev
+train,36980,国奥招商嘉铭珑原低密精装住宅近期即将开盘,国奥招商嘉铭珑原低密精装住宅近期即将开盘,1,duplicate_with_test,test
+train,37231,大兴东亚马赛公馆均价16000办卡优惠每日省300,大兴东亚马赛公馆均价16000办卡优惠每日省300,1,duplicate_with_test,test
+train,37235,固安龙TOWN6月推1-3居V团购额外享98折,固安龙TOWN6月推1-3居V团购额外享98折,1,duplicate_with_test,test
+train,37339,中银行业优选基金获准发行,中银行业优选基金获准发行,0,duplicate_with_dev,dev
+train,37853,证券通热门板块机构调研深度透析,证券通热门板块机构调研深度透析,2,duplicate_with_test,test
+train,38368,朝外优唐大都会70平起精装小户型7月开盘(图),朝外优唐大都会70平起精装小户型7月开盘(图),1,duplicate_with_dev,dev
+train,39125,昌平住总万科金域华府85-105平2-3居在售,昌平住总万科金域华府85-105平2-3居在售,1,duplicate_with_dev,dev
+train,39252,西红门鸿坤理想城90平起2-4居在售可优惠14万,西红门鸿坤理想城90平起2-4居在售可优惠14万,1,duplicate_with_dev,dev
+train,39394,超越前作《使命召唤7》五天劲收6.5亿,超越前作《使命召唤7》五天劲收6.5亿,8,duplicate_with_test,test
+train,39687,国内首只债券指数基金获批,国内首只债券指数基金获批,0,duplicate_with_test,test
+train,42607,午评：商品普遍冲高回落 农产品表现欠佳,午评:商品普遍冲高回落 农产品表现欠佳,0,duplicate_with_dev,dev
+train,42962,东2环悠唐麒麟公馆精装准现房160平3居优惠7万,东2环悠唐麒麟公馆精装准现房160平3居优惠7万,1,duplicate_with_dev,dev
+train,46707,易小迪：房地产市场供大于求局面短期难改变(图),易小迪:房地产市场供大于求局面短期难改变(图),1,duplicate_with_test,test
+train,47016,西大望路时代帝景预计年底推70平米开间(图),西大望路时代帝景预计年底推70平米开间(图),1,duplicate_with_dev,dev
+train,48393,俄罗斯为美国发射一颗通信卫星,俄罗斯为美国发射一颗通信卫星,6,duplicate_with_test,test
+train,49163,大兴旭辉紫郡8月上旬售楼处与样板间正式开放,大兴旭辉紫郡8月上旬售楼处与样板间正式开放,1,duplicate_with_test,test
+train,49753,通州新华联运河湾84平起精装2-3居全款99折,通州新华联运河湾84平起精装2-3居全款99折,1,duplicate_with_test,test
+train,50293,香港临时演员涉嫌强奸女网友 要入行先上床？,香港临时演员涉嫌强奸女网友 要入行先上床?,9,duplicate_with_dev,dev
+train,52132,大兴合生世界村精装乐居独享15800元买1层赠1层,大兴合生世界村精装乐居独享15800元买1层赠1层,1,duplicate_with_test,test
+train,52290,英国正研发制造游戏场景气味的新技术,英国正研发制造游戏场景气味的新技术,8,duplicate_with_test,test
+train,52658,一批券商个股最新评级及推荐金股,一批券商个股最新评级及推荐金股,2,duplicate_with_dev,dev
+train,53068,朝阳北苑北京城建世华泊郡12月中下旬推2-4居,朝阳北苑北京城建世华泊郡12月中下旬推2-4居,1,duplicate_with_test,test
+train,53897,上地亿城中关村软件园项目2010年4月推出(图),上地亿城中关村软件园项目2010年4月推出(图),1,duplicate_with_dev,dev
+train,56275,顺义MOMA万万树400平起独栋别墅均价25000元(图),顺义MOMA万万树400平起独栋别墅均价25000元(图),1,duplicate_with_test,test
+train,57028,东吴基金开通基金转换业务,东吴基金开通基金转换业务,0,duplicate_with_test,test
+train,57184,陶然亭公园一瓶两居现房特价15000全款97折(图),陶然亭公园一瓶两居现房特价15000全款97折(图),1,duplicate_with_test,test
+train,57885,昌平领秀慧谷2期57平起1-3居明年初开盘,昌平领秀慧谷2期57平起1-3居明年初开盘,1,duplicate_with_test,test
+train,59068,证监会就分级基金产品审核指引征求意见,证监会就分级基金产品审核指引征求意见,0,duplicate_with_dev,dev
+train,59977,通州富力金禧花园预计4月推新1-3居,通州富力金禧花园预计4月推新1-3居,1,duplicate_with_dev,dev
+train,60159,房山瑞雪春堂推特价房86-120平2-3居94折,房山瑞雪春堂推特价房86-120平2-3居94折,1,duplicate_with_test,test
+train,63159,顺义纳帕尔湾准现房别墅推特价房可省100万,顺义纳帕尔湾准现房别墅推特价房可省100万,1,duplicate_with_test,test
+train,63524,中期协要求期货公司加紧落实分类监管工作,中期协要求期货公司加紧落实分类监管工作,0,duplicate_with_test,test
+train,64269,东直门高档精装现房当代MOMA均价36000元(图),东直门高档精装现房当代MOMA均价36000元(图),1,duplicate_with_dev,dev
+train,65055,澳门特区公布第三届政府行政会委员名单,澳门特区公布第三届政府行政会委员名单,6,duplicate_with_test,test
+train,65705,华业东方玫瑰10月推40平起1-2居登记享优惠,华业东方玫瑰10月推40平起1-2居登记享优惠,1,duplicate_with_test,test
+train,66634,股市在线：6月2日股市早班车,股市在线:6月2日股市早班车,2,duplicate_with_dev,dev
+train,66885,香港市场新股上市一览,香港市场新股上市一览,2,duplicate_with_test,test
+train,69038,孔雀大卫城8月7日开盘总房款优惠1万5再享98折,孔雀大卫城8月7日开盘总房款优惠1万5再享98折,1,duplicate_with_test,test
+train,69097,实力机构周末荐股精选,实力机构周末荐股精选,2,duplicate_with_test,test
+train,69376,通州新华联运河湾预计春节后开盘11000元(图),通州新华联运河湾预计春节后开盘11000元(图),1,duplicate_with_test,test
+train,70476,广渠路富力十号预计10月底推226平起3-4居公寓,广渠路富力十号预计10月底推226平起3-4居公寓,1,duplicate_with_test,test
+train,73377,通州润枫领尚4-5月待推50平起1-3居小户型,通州润枫领尚4-5月待推50平起1-3居小户型,1,duplicate_with_test,test
+train,73611,证券通天天涨幅榜背景大揭秘,证券通天天涨幅榜背景大揭秘,2,duplicate_with_dev,dev
+train,73828,房山中国铁建长阳国际城近期推80-120平2-3居,房山中国铁建长阳国际城近期推80-120平2-3居,1,duplicate_with_test,test
+train,74510,昌平山水上苑独栋别墅8月开盘8960元起,昌平山水上苑独栋别墅8月开盘8960元起,1,duplicate_with_dev,dev
+train,76163,菲律宾警察与安帕图安家族武装交火,菲律宾警察与安帕图安家族武装交火,6,duplicate_with_dev,dev
+train,77616,天琪商品观察,天琪商品观察,0,duplicate_with_test,test
+train,81150,大兴CAGO寓所2011年1月推70平起1-3居均价待定,大兴CAGO寓所2011年1月推70平起1-3居均价待定,1,duplicate_with_test,test
+train,81421,固安龙TOWN项目6月推1-3居V团购额外享98折,固安龙TOWN项目6月推1-3居V团购额外享98折,1,duplicate_with_dev,dev
+train,81920,望京合生麒麟社精装小户型全款97折特价房94折,望京合生麒麟社精装小户型全款97折特价房94折,1,duplicate_with_test,test
+train,82264,建信沪深300指数基金获批募集,建信沪深300指数基金获批募集,0,duplicate_with_dev,dev
+train,82363,大兴艺苑桐城预计春节后推新2-3居全款97折,大兴艺苑桐城预计春节后推新2-3居全款97折,1,duplicate_with_test,test
+train,84925,北京湾打造符合中国人审美情趣新式别墅,北京湾打造符合中国人审美情趣新式别墅,1,duplicate_with_dev,dev
+train,86308,上市公司年报业绩快报及预告一览,上市公司年报业绩快报及预告一览,2,duplicate_with_test,test
+train,88286,西四环金隅大成玲珑天地8月开盘推精装小户型,西四环金隅大成玲珑天地8月开盘推精装小户型,1,duplicate_with_dev,dev
+train,89600,房山加州水郡4期60平起1-3居在售均价12800元,房山加州水郡4期60平起1-3居在售均价12800元,1,duplicate_with_test,test
+train,89665,大兴合生世界村V计划团购均价8500买1层送1层,大兴合生世界村V计划团购均价8500买1层送1层,1,duplicate_with_dev,dev
+train,91030,昌平雍�台景观板楼8月开盘均价8800元(图),昌平雍�台景观板楼8月开盘均价8800元(图),1,duplicate_with_dev,dev
+train,92156,世奥国际中心精装现房19200元全款每平减400元,世奥国际中心精装现房19200元全款每平减400元,1,duplicate_with_dev,dev
+train,93210,北五环清河新城5月推118平起2-3居均价26000,北五环清河新城5月推118平起2-3居均价26000,1,duplicate_with_dev,dev
+train,94823,周末影响市场重要资讯回顾及展望,周末影响市场重要资讯回顾及展望,2,duplicate_with_test,test
+train,96420,华尔街早餐：周四美股盘前必读,华尔街早餐:周四美股盘前必读,2,duplicate_with_dev,dev
+train,98544,京版细则楼市调查：长阳半岛人气稍减即将开盘,京版细则楼市调查:长阳半岛人气稍减即将开盘,1,duplicate_with_test,test
+train,99125,绩优一对多受宠　按户预约销售火爆,绩优一对多受宠 按户预约销售火爆,0,duplicate_with_test,test
+train,99547,广发中证500指数基金获批,广发中证500指数基金获批,0,duplicate_with_test,test
+train,101419,丰台亚胜铂第公馆精装小户型准现房均价28000,丰台亚胜铂第公馆精装小户型准现房均价28000,1,duplicate_with_test,test
+train,101754,盘前：美股指期货小幅下滑,盘前:美股指期货小幅下滑,2,duplicate_with_dev,dev
+train,102091,房山中粮万科长阳半岛精装板楼13500元起(图),房山中粮万科长阳半岛精装板楼13500元起(图),1,duplicate_with_dev,dev
+train,102873,顺义龙湖香醍溪岸120平3居洋房及别墅享97折,顺义龙湖香醍溪岸120平3居洋房及别墅享97折,1,duplicate_with_test,test
+train,104676,南四环城南大道精装小户型77万起购房送礼(图),南四环城南大道精装小户型77万起购房送礼(图),1,duplicate_with_dev,dev
+train,104730,丰台天伦锦城现房在售50-150平1-3居全款98折,丰台天伦锦城现房在售50-150平1-3居全款98折,1,duplicate_with_test,test
+train,106813,楼市没有真相 买不买房要看自己的腰包和需要,楼市没有真相 买不买房要看自己的腰包和需要,1,duplicate_with_test,test
+train,109246,海淀上林溪9月推93平两居新房源均价22500元,海淀上林溪9月推93平两居新房源均价22500元,1,duplicate_with_test,test
+train,112400,廊坊低密板楼百合尚城10月20日开盘均价3300元,廊坊低密板楼百合尚城10月20日开盘均价3300元,1,duplicate_with_dev,dev
+train,112605,东坝首开常青藤2010年2月开盘推93平小3居(图),东坝首开常青藤2010年2月开盘推93平小3居(图),1,duplicate_with_dev,dev
+train,112843,万科蓝山春节前推5号楼精装大3居35000元(图),万科蓝山春节前推5号楼精装大3居35000元(图),1,duplicate_with_test,test
+train,113468,燕郊挪威de森林185平联排别墅总价150万起,燕郊挪威de森林185平联排别墅总价150万起,1,duplicate_with_dev,dev
+train,115011,启城三期京津花园3月27日开盘均价5800元(图),启城三期京津花园3月27日开盘均价5800元(图),1,duplicate_with_test,test
+train,115164,京西石景山老古城限价房项目即将推出均价4800,京西石景山老古城限价房项目即将推出均价4800,1,duplicate_with_test,test
+train,116183,西四环板楼正源定慧福里新盘均价23000元(图),西四环板楼正源定慧福里新盘均价23000元(图),1,duplicate_with_test,test
+train,116484,开放式基金分红206亿 减弱赎回压力是主因,开放式基金分红206亿 减弱赎回压力是主因,0,duplicate_with_dev,dev
+train,117173,基金托管市场依旧三强争霸,基金托管市场依旧三强争霸,0,duplicate_with_test,test
+train,117936,国奥美立方10月开盘小户型总价38万起,国奥美立方10月开盘小户型总价38万起,1,duplicate_with_dev,dev
+train,120971,朝阳中建玲珑山12月中上旬推精装47平起0-1居,朝阳中建玲珑山12月中上旬推精装47平起0-1居,1,duplicate_with_test,test
+train,121775,证监会拟禁止基金经理买卖期指,证监会拟禁止基金经理买卖期指,0,duplicate_with_dev,dev
+train,123821,林达海渔广场精装公寓均价17200元全款96折(图),林达海渔广场精装公寓均价17200元全款96折(图),1,duplicate_with_dev,dev
+train,124526,海淀正源尚峰尚水35平起0-3居预计11月开盘,海淀正源尚峰尚水35平起0-3居预计11月开盘,1,duplicate_with_dev,dev
+train,128473,易方达资源行业基金7月18日起发行,易方达资源行业基金7月18日起发行,0,duplicate_with_dev,dev
+train,128760,西藏旅游：掌控资源 打造区域龙头,西藏旅游:掌控资源 打造区域龙头,2,duplicate_with_dev,dev
+train,130395,北京打折潮是否真来袭 本周优惠打折信息全报道,北京打折潮是否真来袭 本周优惠打折信息全报道,1,duplicate_with_test,test
+train,134158,朝阳北路润枫嘉尚7月开盘精装小户型39平起(图),朝阳北路润枫嘉尚7月开盘精装小户型39平起(图),1,duplicate_with_test,test
+train,134884,美股期货上升 道指期货升18点,美股期货上升 道指期货升18点,2,duplicate_with_dev,dev
+train,136083,挪威建筑师代表团访问华太设计（组图）,挪威建筑师代表团访问华太设计(组图),1,duplicate_with_test,test
+train,137575,任志强：房地产市场最坏的情况过去了,任志强:房地产市场最坏的情况过去了,1,duplicate_with_dev,dev
+train,143568,涨停敢死队火线抢入7只强势股,涨停敢死队火线抢入7只强势股,2,duplicate_with_dev,dev
+train,144734,房山世界名园58-135平1-3居均价9500可享优惠,房山世界名园58-135平1-3居均价9500可享优惠,1,duplicate_with_test,test
+train,146703,京汉铂寓杯首届棋牌PK赛圆满举行(组图),京汉铂寓杯首届棋牌PK赛圆满举行(组图),1,duplicate_with_dev,train
+train,147706,旧宫润枫锦尚南向75平1居13500元全款97折(图),旧宫润枫锦尚南向75平1居13500元全款97折(图),1,duplicate_with_test,test
+train,147749,兴业全球基金获批专户理财资格,兴业全球基金获批专户理财资格,0,duplicate_with_test,test
+train,152871,夏威夷南岸二期11月底12月初推板楼新房源,夏威夷南岸二期11月底12月初推板楼新房源,1,duplicate_with_test,test
+train,153603,智地钻河公馆小户型总价90万起全款95折(图),智地钻河公馆小户型总价90万起全款95折(图),1,duplicate_with_test,test
+train,154448,昌平润枫欣尚61平办公均价18000享98折,昌平润枫欣尚61平办公均价18000享98折,1,duplicate_with_test,test
+train,155022,顺义香悦四季95-115平2-3居起价15000享98折,顺义香悦四季95-115平2-3居起价15000享98折,1,duplicate_with_test,test
+train,155724,5号线宋家庄万科红精装1-2居11月20日开盘,5号线宋家庄万科红精装1-2居11月20日开盘,1,duplicate_with_test,test
+train,157049,通州世纪星城全朝阳43平起1-3居现房11月开盘,通州世纪星城全朝阳43平起1-3居现房11月开盘,1,duplicate_with_test,test
+train,158173,海淀中间建筑准现房均价16000元全款97折(图),海淀中间建筑准现房均价16000元全款97折(图),1,duplicate_with_dev,dev
+train,159840,顺义龙湖香醍溪苑90-315平米花园洋房全款96折,顺义龙湖香醍溪苑90-315平米花园洋房全款96折,1,duplicate_with_test,test
+train,160333,超大型水晶贺岁巨作亮相盘古七星酒店,超大型水晶贺岁巨作亮相盘古七星酒店,1,duplicate_with_test,test
+train,162247,新通国际花园楼王90至120平三居均价11000(图),新通国际花园楼王90至120平三居均价11000(图),1,duplicate_with_dev,dev
+train,164476,上半年北京二手房成交破10万套 超过07年总量,上半年北京二手房成交破10万套 超过07年总量,1,duplicate_with_dev,dev
+train,165015,住宅市场双轨制局势明朗 房企巨头发力商业地产,住宅市场双轨制局势明朗 房企巨头发力商业地产,1,duplicate_with_dev,train
+train,165784,丰台4号线蓝光云鼎待推40平小户型立减6万,丰台4号线蓝光云鼎待推40平小户型立减6万,1,duplicate_with_test,test
+train,167273,中小板表现亮眼 8只个股涨停,中小板表现亮眼 8只个股涨停,2,duplicate_with_test,test
+train,168574,潮白河孔雀城12月18日开盘180-290平米新房源,潮白河孔雀城12月18日开盘180-290平米新房源,1,duplicate_with_dev,dev
+train,168902,奥巴马签署命令取消干细胞研究限制,奥巴马签署命令取消干细胞研究限制,6,duplicate_with_test,test
+train,168933,房山昊腾花园均价4800全款98折(图),房山昊腾花园均价4800全款98折(图),1,duplicate_with_dev,dev
+train,170595,富国天时货币暂停大额申购,富国天时货币暂停大额申购,0,duplicate_with_dev,dev
+train,171483,柏林爱乐精装公寓7月开盘11000元总价49万起(图),柏林爱乐精装公寓7月开盘11000元总价49万起(图),1,duplicate_with_test,test
+train,172311,东5环外远洋一方64平起1-3居最高享6万元优惠,东5环外远洋一方64平起1-3居最高享6万元优惠,1,duplicate_with_test,test
+train,172859,双品牌联合助推 筑造新里程新学府梦,双品牌联合助推 筑造新里程新学府梦,1,duplicate_with_dev,train
+train,173942,图文：电信研究院通信标准所副所长王志勤,图文:电信研究院通信标准所副所长王志勤,4,duplicate_with_dev,dev
+train,175235,海淀清河新城小户型均价21000元98折优惠(图),海淀清河新城小户型均价21000元98折优惠(图),1,duplicate_with_dev,dev
+train,176269,丰台中景未山赋春节后推150-390平新盘,丰台中景未山赋春节后推150-390平新盘,1,duplicate_with_test,test
+train,178092,收盘：美国股市小幅收高,收盘:美国股市小幅收高,2,duplicate_with_test,test

@@ -1,0 +1,201 @@
+﻿text,true_label,true_class_name,predicted_label,predicted_class_name,text_length,predicted_probability,top2_label,top2_probability
+日本地震：金吉列关注在日学子系列报道,3,education,6,politics,18,0.55,2,0.22
+去新西兰体验舌尖上的饕餮之旅(组图),3,education,9,entertainment,18,0.45,6,0.15
+公共英语(PETS)写作中常见的逻辑词汇汇总,3,education,9,entertainment,22,0.59,3,0.28
+微博“小达人”全球游：美国行程亮点,3,education,6,politics,17,0.47,2,0.17
+艺考路上孩子累脑父母累心,3,education,5,society,12,0.67,3,0.3
+大一女生开学报到带上百斤行李17双鞋雷倒同学,3,education,5,society,22,0.76,3,0.09
+南开大学实行学业警示 学分不够将“吃黄牌”,3,education,9,entertainment,21,0.77,6,0.07
+英国一妇女整容成迈克尔-杰克逊(图),3,education,6,politics,18,0.47,8,0.24
+美国管理会计师协会推出2011年新举措,3,education,6,politics,19,0.32,3,0.3
+比利时老汉酷爱穿企鹅装 愿葬身南极(组图),3,education,9,entertainment,21,0.47,5,0.36
+海南高考状元成功法宝：调整心态 培养题感(图),3,education,2,stocks,23,0.3,0,0.24
+浙商大法语系介绍：半数毕业生出国深造,3,education,8,game,18,0.51,9,0.25
+空军与清华签协议 首批联合培养飞行学员开课,3,education,2,stocks,21,0.23,3,0.23
+生孩子是德国家庭头等“战略任务”,3,education,0,finance,16,0.23,3,0.23
+中国民生银行近期活动：启动财富“梦想”,3,education,8,game,19,0.4,4,0.2
+民办高校1老师9门课现学现教 带着负罪感上课,3,education,5,society,22,0.51,9,0.28
+官方调查称湖南高考作文网上泄密不实,3,education,4,science,17,0.28,3,0.23
+北大新生通知书附游戏盘 快速了解校园生活,3,education,8,game,20,0.75,3,0.19
+澳技术移民最新优先审理顺序已生效,3,education,9,entertainment,16,0.33,8,0.27
+调查体验报告：问题“刁钻”也无妨,3,education,5,society,16,0.32,6,0.24
+空军招飞行员体检开始 视力成最大“门槛”,3,education,9,entertainment,20,0.3,1,0.11
+图文：欧美同学会青年委员会会长陶庆华出席,3,education,9,entertainment,20,0.25,7,0.24
+重庆2011年面向全国选派5619名大学生下基层,3,education,5,society,24,0.45,3,0.39
+美国驻华使馆签证官：留美学生签证要证明三点,3,education,9,entertainment,21,0.47,3,0.32
+周冬雨不必撇清光环 成功出演山楂树有说服力,3,education,9,entertainment,21,0.74,3,0.07
+09年湖南省有六名初中生成“少年大学生”,3,education,5,society,20,0.52,3,0.29
+热点观察：教育资源不足下的复读困境,3,education,9,entertainment,17,0.3,0,0.22
+教育部要求小学高年级学性知识,3,education,6,politics,14,0.55,3,0.14
+北京理工大学高科技助奥运会开幕式,3,education,9,entertainment,16,0.66,6,0.15
+沪免费师范生就业方案公布 至少任教10年,3,education,8,game,20,0.4,6,0.21
+全方位分析：留港就业门槛逐步降低,3,education,2,stocks,16,0.41,9,0.19
+7岁男童3年读完小学上初一 母亲家教有绝招,3,education,5,society,21,0.88,9,0.11
+上海市高自考毕业生突破十五万人,3,education,0,finance,15,0.3,9,0.3
+在韩国的N种生存法：自己创业等(组图),3,education,9,entertainment,19,0.4,6,0.22
+“跨区域”办学使新疆3万多名各民族学生受益,3,education,5,society,21,0.39,3,0.36
+注税考前大练兵：税收相关法律重难点总结,3,education,9,entertainment,19,0.7,6,0.13
+艺考可能因新课改而降温,3,education,6,politics,11,0.39,9,0.26
+英国爆发第三次学生游行抗议涨学费,3,education,5,society,16,0.3,6,0.3
+五千加沙儿童共绘手印画 打破吉尼斯纪录,3,education,5,society,19,0.5,6,0.42
+中国5名留美学生发生车祸 2死3伤,3,education,6,politics,17,0.86,2,0.08
+江苏初中试水“双分制” 多把尺子量学生,3,education,5,society,19,0.43,3,0.38
+广州中小学开学典礼很“奥运”(图),3,education,7,sports,17,0.22,3,0.18
+创新之道：我在美国成功转学上名校,3,education,6,politics,16,0.35,3,0.32
+海外见闻：阿根廷圣诞宝贝最惹火(图),3,education,8,game,18,0.34,3,0.25
+专家：父母放手给孩子更大成长空间,3,education,5,society,16,0.41,3,0.33
+东南大学艺术特长生和保送生初审结果公布,3,education,8,game,19,0.74,3,0.12
+MBA招收应届毕业生临阵“缩沙”始末(组图),3,education,9,entertainment,22,0.83,3,0.11
+热议：美国梦想法案是否对留学生不公平？,3,education,6,politics,19,0.59,3,0.26
+初三生与父母相处学会“三变”,3,education,5,society,14,0.61,3,0.31
+20个常用手势让你摇身一变“美国通”,3,education,6,politics,18,0.54,2,0.2
+学习之星：北航同宿舍8名男生全保研,3,education,5,society,17,0.87,9,0.06
+内蒙古在校大学生明年起可以参加基本医疗保险,3,education,5,society,21,0.83,3,0.07
+组图：备战艺考 女生穿比基尼半裸对视男生,3,education,5,society,20,0.51,9,0.38
+“梦想法案”梦断国会山 奥巴马“非常失望”,3,education,6,politics,21,0.59,2,0.34
+17日中国和新加坡《互免签证协定》生效,3,education,2,stocks,19,0.26,3,0.2
+从高中生到大学生 华丽转身从现在开始(组图),3,education,5,society,22,0.47,9,0.32
+四六级引来网络“杯具”签名潮 学生填词宣泄,3,education,4,science,21,0.37,5,0.24
+考点区域临时管制 持准考证送考车辆尾号不限行,3,education,9,entertainment,22,0.51,6,0.13
+掌握五种有效记忆方法 让你轻松玩转历史学科(2),3,education,8,game,24,0.53,9,0.25
+湖大出新规：期末考不满50分平时成绩不算数,3,education,9,entertainment,21,0.3,5,0.23
+北京美术类统考8日举行 开考15分钟不能进场,3,education,1,realty,22,0.44,3,0.24
+加拿大联邦技术移民最新详细职业清单,3,education,8,game,17,0.48,4,0.15
+美国杜莎夫人蜡像馆为名人换唐装贺新春(图),3,education,6,politics,21,0.72,2,0.15
+揭秘11岁神童在人大的生活：师兄师姐关爱有加,3,education,9,entertainment,22,0.27,8,0.23
+三胞胎姐妹金榜题名：贫困其实是一种财富(图),3,education,9,entertainment,22,0.86,0,0.05
+趣味：九大雷死人不偿命怪癖你占几个(图),3,education,9,entertainment,20,0.6,3,0.19
+留学生：在美国找工作也得靠“关系”,3,education,6,politics,17,0.41,3,0.31
+吉林招办主任：一定找准定位填志愿,3,education,5,society,16,0.51,3,0.3
+初中生读中技 毕业后成人才市场“香饽饽”,3,education,2,stocks,20,0.46,0,0.32
+高考作文预测 网络微博话题受关注,3,education,4,science,16,0.61,2,0.14
+美科学家进行千人实验 称人类或许能预知未来,3,education,4,science,21,0.39,6,0.32
+会6种语言成都女孩获哈佛大学全额奖学金,3,education,5,society,19,0.79,3,0.08
+中学英语指南：九类倒装句解析,3,education,9,entertainment,14,0.45,8,0.41
+留美申请文书写作技巧：尽量多讲故事,3,education,9,entertainment,17,0.33,3,0.3
+开学添置新文具 关注实用别跟”攀比风”(图),3,education,2,stocks,22,0.68,9,0.17
+香港城市大学2008年学费上涨1万港币,3,education,0,finance,19,0.46,2,0.44
+冬天里的春天 计算机专业就业新观察,3,education,2,stocks,17,0.55,9,0.36
+野鸡大学调查：国外半小时注册 国内无周密审查,3,education,9,entertainment,22,0.21,5,0.19
+台湾放开大陆学生赴台就读 门槛还很高,3,education,6,politics,18,0.33,3,0.29
+专家建议：提前批次切忌“不填白不填”,3,education,9,entertainment,18,0.29,3,0.27
+教育部：400名大学生须配一政治老师,3,education,5,society,18,0.66,3,0.22
+湖北武汉二中探索出有效课堂教学策略,3,education,9,entertainment,17,0.37,3,0.21
+热议：“小升初”累病了北京的妈妈,3,education,1,realty,16,0.41,3,0.35
+揭秘：美国大学生从蚁族潜伏到蜗居,3,education,6,politics,16,0.38,5,0.37
+老外看中国：乘车不喜欢系安全带等,3,education,2,stocks,16,0.4,4,0.22
+提示站：自费留学需注意“山寨中介”,3,education,9,entertainment,17,0.38,1,0.15
+墨尔本大学国际开放日 5月21日北京始发,3,education,1,realty,20,0.45,3,0.25
+面对“落榜生” 家庭关怀帮助不可少,3,education,0,finance,17,0.46,9,0.34
+口述90后中学生的真实学习生活,3,education,9,entertainment,15,0.39,3,0.18
+上海师范大学成立国际儒学院,3,education,0,finance,13,0.33,2,0.21
+哈佛北京校友会设立“哈佛中国学子基金”,3,education,0,finance,19,0.49,1,0.21
+社工试题答案公布：增加逻辑推理题,3,education,8,game,16,0.62,4,0.13
+14岁“神童”大学生读天大 靠的是勤奋(图),3,education,5,society,22,0.83,3,0.1
+快讯：七月赴澳技术移民将按新政申请,3,education,2,stocks,17,0.71,4,0.11
+好莱坞十大童星富豪排行榜新鲜出炉(组图),3,education,9,entertainment,20,0.76,5,0.11
+司考10年41万人获职业资格 司考工作网络初成,3,education,4,science,23,0.69,6,0.1
+北大网院学生享受系列文化大餐,3,education,5,society,14,0.42,3,0.41
+测试：你内心真实的一面属于哪种类型(图),3,education,9,entertainment,20,0.33,3,0.28
+美国投资移民申请常见问题快速解答,3,education,6,politics,16,0.44,3,0.19
+冷暖人生：加籍华裔的后移民时代(组图),3,education,9,entertainment,19,0.36,3,0.33
+做个聪明应考人：国家公务员面试准备(组图),3,education,9,entertainment,21,0.55,3,0.19
+北大网上开放校长视频迎客 近百名老师网络答疑,3,education,4,science,22,0.42,3,0.26
+惊爆：美国百万富人赚钱的十大“秘诀”,3,education,6,politics,18,0.68,2,0.14
+剑桥大学为中国博士专设高额奖学金,3,education,2,stocks,16,0.4,3,0.19
+增加竞争：英国欲改革大学排名体制,3,education,6,politics,16,0.45,2,0.24
+海归回国创业最高可获50万元资金支持,3,education,2,stocks,18,0.34,5,0.31
+拉斯维加斯：一个疯狂不羁的城市(图),3,education,1,realty,18,0.41,6,0.2
+深圳特区报：澳际留美挑战赛开赛,3,education,9,entertainment,15,0.64,3,0.17
+教辅书东拼西凑广告夸大 背后暗藏分成利益,3,education,9,entertainment,20,0.43,4,0.38
+留日学子坦言：日本人没传说中冷漠(图),3,education,6,politics,19,0.5,8,0.24
+托福考试首推“口语录音剪辑”在线查询,3,education,9,entertainment,18,0.34,8,0.24
+张艺谋做客母校北电 建议学子反复实践(组图),3,education,9,entertainment,22,0.79,5,0.1
+吉林爱心助学基金 20岁女生申请助学金,3,education,0,finance,19,0.77,5,0.16
+亲历：日本体验配眼镜的舒适服务(组图),3,education,6,politics,19,0.38,9,0.25
+“避热就冷”好就业 小语种创造大前途(图),3,education,2,stocks,21,0.5,9,0.39
+揭开：美国穷人爱“蜗居”城里原因,3,education,6,politics,16,0.68,9,0.11
+取消中考综合素质评价可能变成“拼爹游戏”,3,education,8,game,20,0.49,3,0.42
+释解学生疑惑：赴澳考“雅”还是考“托”？,3,education,5,society,20,0.47,3,0.36
+美媒：“海归派”在中国势力逐渐壮大,3,education,2,stocks,17,0.45,4,0.25
+印度4岁“俯卧撑帝”40分钟做1500个(图),3,education,6,politics,23,0.58,5,0.23
+山西同等学力申硕全国联考开始领取准考证,3,education,9,entertainment,19,0.47,3,0.17
+演员张一山、杨紫通过北京电影学院三试(组图),3,education,9,entertainment,22,0.56,5,0.2
+看到绿丝带有事您说话 爱心送考车队正式出发,3,education,9,entertainment,21,0.35,7,0.27
+最牛女生宿舍：考耶鲁进清华七朵金花绽放(图),3,education,9,entertainment,22,0.38,3,0.32
+北京舞蹈学院7月、8月加试专业课,3,education,9,entertainment,16,0.87,4,0.05
+百名陌生同学送祝福 大一女孩度过最难忘生日,3,education,5,society,21,0.65,9,0.23
+美中产家庭抚养孩子18岁要花147万元人民币,3,education,5,society,22,0.48,0,0.2
+青岛籍大学生20日可申请生源地助学贷款,3,education,5,society,19,0.76,3,0.11
+美国教育部副部长：注重鼓励学生独立思考,3,education,6,politics,19,0.56,3,0.23
+雷闯下周正式前往交大读研 校方表示绝不歧视,3,education,9,entertainment,21,0.47,2,0.33
+别样家长会：老师唱独角变成三方恳谈(图),3,education,5,society,20,0.49,9,0.3
+广州高考状元共同点：家庭轻松自由多,3,education,0,finance,17,0.41,3,0.17
+朱德庸：几乎不开空调 传递绿色生活体验,9,entertainment,8,game,19,0.38,9,0.28
+乔治男孩提前出狱 清瘦一圈眼袋变小(图),9,entertainment,5,society,20,0.79,9,0.07
+妮可-里奇网上分享美发心得 推出自家品牌首饰,9,entertainment,4,science,22,0.37,5,0.2
+重塑雕像的权利9号专场 首次5人登场演绎新歌,9,entertainment,8,game,22,0.35,9,0.33
+弃恶搞选唯美 孙周首玩网络电影《相对论》(图),9,entertainment,4,science,23,0.78,5,0.07
+“老白”归来 沙溢疑似“转会”华谊,9,entertainment,7,sports,17,0.61,9,0.15
+张嘉儿视“猪扒港姐”是测试 笑称自己已过关,9,entertainment,3,education,21,0.77,8,0.1
+彭坦春晓拍时尚大片玩性别反串(图),9,entertainment,4,science,17,0.59,9,0.26
+《蜗居》登陆北京说房事 海清：不能为钱当孙子,9,entertainment,1,realty,22,0.56,3,0.2
+米雪球场展欢颜 球迷掌声悼念尹志强(图),9,entertainment,7,sports,20,0.8,5,0.17
+高群书《四大名捕》角色解析 四主角各领风骚,9,entertainment,8,game,21,0.48,9,0.44
+王朔一见钟情恋上周迅 房祖名是介绍人(图),9,entertainment,8,game,21,0.53,9,0.35
+“绯闻女孩”恋上“吸血鬼王子”？(图),9,entertainment,5,society,19,0.8,9,0.11
+郎朗时刻等待祖国召唤首张精选集献礼奥运,9,entertainment,8,game,19,0.31,7,0.22
+陈小春应采儿今日情人节在美国赌城注册结婚,9,entertainment,6,politics,20,0.65,9,0.17
+预告：24日10时半朱丹吴健吴毅聊《女主播》,9,entertainment,5,society,22,0.23,1,0.19
+冯小刚自传《我把青春献给你》上市,9,entertainment,2,stocks,16,0.39,8,0.28
+董卿称正在研读易中天 网友拍砖戏谑其装深沉,9,entertainment,4,science,21,0.4,5,0.3
+亚视也跟速配风 《挞着》进行公开招募(图),9,entertainment,8,game,21,0.32,6,0.24
+夏雨袁泉携手风雨十年路(图),9,entertainment,4,science,14,0.33,9,0.33
+马苏《女人如花》受关注 厂花惨变“苦菜花”,9,entertainment,2,stocks,21,0.63,9,0.28
+高价换高清到底值不值 电视台主持人遇挑战(图),9,entertainment,4,science,23,0.56,9,0.28
+于震做客《最佳现场》 讲述从艺经历(图),9,entertainment,7,sports,20,0.43,9,0.28
+图文：杨威杨云三亚盛大婚礼-黄玉斌百感交集,9,entertainment,7,sports,21,0.34,2,0.25
+他们支撑着香港娱乐业：影视大亨-邵逸夫(图),9,entertainment,2,stocks,22,0.3,9,0.3
+英电影杂志选最伟大角色 皮特夺冠周润发排33,9,entertainment,7,sports,22,0.48,9,0.34
+李小冉写微博声明称四年来一直遭威胁,9,entertainment,4,science,17,0.59,9,0.24
+马琳离婚案延期 宝马车送教练被指转移遗产(图),9,entertainment,7,sports,23,0.48,9,0.37
+张艾嘉郑元畅探访印度贫困儿 分享希望幸福(图),9,entertainment,6,politics,23,0.61,2,0.11
+台湾“综艺教父”王伟忠在杭开传媒公司,9,entertainment,6,politics,18,0.32,4,0.21
+刘嘉玲苏州别墅房间达15间 市值1700万(图),9,entertainment,1,realty,24,0.82,5,0.09
+林志颖加盟中国天荣F1摩托艇招商银行队,9,entertainment,7,sports,19,0.58,9,0.17
+好友揭梁洛施解约内幕 英皇恐怖10年死约(图),9,entertainment,5,society,23,0.24,9,0.17
+陈慧琳风光大嫁 宣布“造人”为头等大事(图),9,entertainment,6,politics,22,0.42,9,0.25
+艾薇儿北京个唱有望和丈夫Sum41主唱同台,9,entertainment,1,realty,21,0.38,5,0.32
+“离婚门”成09娱乐关键词 “小三”层出不穷,9,entertainment,3,education,22,0.62,9,0.19
+张紫妍原经纪人刘长浩被警方立案调查,9,entertainment,5,society,17,0.49,6,0.28
+《非常了得》现女版姜振宇 封新城：光头是惊喜,9,entertainment,1,realty,22,0.47,9,0.37
+韩寒回应陈文茜“肤浅”说：我不跟女生争辩,9,entertainment,5,society,20,0.47,9,0.23
+《娱乐现场》关注夺金川音帮 李宇春力挺师妹,9,entertainment,2,stocks,21,0.4,9,0.24
+齐秦手捧“心肝宝贝儿” 微博感谢关注及祝福,9,entertainment,2,stocks,21,0.45,4,0.34
+梁静茹在菲律宾长滩岛完婚 李宗盛担当主婚人,9,entertainment,6,politics,21,0.68,9,0.29
+新浪影视点评团22日为《赤壁》下最新打分69.4,9,entertainment,8,game,24,0.31,9,0.31
+言承旭日本获奖人气高 千名粉丝留机场见偶像,9,entertainment,6,politics,21,0.49,9,0.29
+电影票房今日冲刺100亿 细数百亿背后的痒与痛,9,entertainment,0,finance,23,0.21,9,0.21
+罗京亲证病情不严重明年复工,9,entertainment,6,politics,13,0.43,9,0.35
+郭敬明再掀圈钱攻略 多部主编漫画即将推出,9,entertainment,8,game,20,0.57,9,0.26
+张之亮将携《肩上蝶》亮相法国戛纳电影节,9,entertainment,6,politics,19,0.42,9,0.23
+吴尊赶戏没时间陪老爸 4天睡不到10小时,9,entertainment,5,society,20,0.19,4,0.17
+高晓松狱中翻译马尔克斯 众网友赞其有才,9,entertainment,4,science,19,0.38,5,0.31
+日本情歌第一人高英男因肺炎病逝 享年90岁(图),9,entertainment,6,politics,24,0.57,3,0.07
+何辉举行注册仪式 自认“当时头脑一片空白”,9,entertainment,6,politics,21,0.54,1,0.11
+杰克逊老爸争遗产 每月要抢1.5万美元(图),9,entertainment,4,science,22,0.45,9,0.3
+综艺：有线台完胜四大电视网络预示革命到来,9,entertainment,4,science,20,0.45,7,0.23
+后街男孩中旬来华 先研究“小虎队”视频,9,entertainment,5,society,19,0.47,8,0.22
+《首映》寻找《东邪西毒》洪七妻子饰演者白丽,9,entertainment,5,society,21,0.56,9,0.31
+《人间》三周年重装升级 全新舞美震撼出炉,9,entertainment,8,game,20,0.85,9,0.07
+亚洲唯一杨紫琼上美女榜 被形容为武术女王,9,entertainment,8,game,20,0.32,9,0.19
+孙志浩舅舅曝贾静雯曾发生“不堪的事”,9,entertainment,6,politics,18,0.9,9,0.05
+姚笛谈裸婚称“裸”不了 对方“裸”没问题(图),9,entertainment,6,politics,23,0.43,9,0.17
+龙丹妮升官不出走？水落石出就在10日,9,entertainment,5,society,18,0.28,4,0.23
+传曹颖由于身体原因将暂停所有工作,9,entertainment,6,politics,16,0.38,9,0.23
+毛毛童年时父母离异 不知道自己生肖,9,entertainment,5,society,17,0.69,3,0.15
+罗百吉名下夜店涉毒遭警方突袭 自称店面已转让,9,entertainment,5,society,22,0.5,9,0.25
+戴军怕掉份儿 穿3万元西装出席时尚活动(图),9,entertainment,4,science,22,0.26,5,0.2
+孙燕姿助阵名包活动 订做独一无二手提包(图),9,entertainment,8,game,22,0.51,9,0.23
+吴京自导自演动作影片 郑中基加盟出演,9,entertainment,7,sports,18,0.46,9,0.29
+《型男志》2011寻找MJ新锐型男网络甄选启动,9,entertainment,4,science,23,0.64,6,0.1
