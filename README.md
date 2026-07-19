@@ -9,6 +9,7 @@
 - 随机森林文本分类基线；
 - FastText 字符级/词级文本分类基线；
 - BERT 微调模型加载、评估、预测和 API 验证；
+- LLM 提示词分类、DeepSeek API 和 Flask 路由验证；
 - TF-IDF 词表泄漏受控实验；
 - 轻量化随机森林模型产物；
 - 实验报告和可复现脚本。
@@ -128,6 +129,18 @@ FastText 的 Windows 原生库无法直接读取包含中文的文件路径。�
 |---:|---:|---:|
 | 0.189667 | 0.941542 | 0.941550 |
 
+### 7. LLM 提示词分类复现
+
+项目使用 OpenAI 兼容 SDK 调用 DeepSeek API，通过系统提示词约束模型只输出 10 个新闻类别之一。当前已验证依赖导入、环境变量读取、预测函数、Flask API 包装和真实 DeepSeek 调用。
+
+当前验证样例：
+
+| 输入文本 | 返回类别 |
+|---|---|
+| 涉股理财品PK基金正规军 | stocks / finance |
+
+说明：LLM API 输出存在非确定性，同一文本在不同调用中可能返回相近但不同的类别。当前阶段保持原提示词和原调用参数，不做重构。
+
 ## 涉及知识点
 
 ### 数据处理
@@ -156,6 +169,8 @@ FastText 的 Windows 原生库无法直接读取包含中文的文件路径。�
 - TF-IDF 特征提取；
 - BERT Tokenizer 编码；
 - 预训练 BERT 下游微调；
+- LLM 提示词分类；
+- OpenAI 兼容 Chat Completions API；
 - 词表拟合范围控制；
 - 稀疏矩阵特征建模。
 
@@ -190,7 +205,7 @@ FastText 的 Windows 原生库无法直接读取包含中文的文件路径。�
 02-rf/controlled/         TF-IDF泄漏受控实验
 03-fasttext/              FastText文本分类实验
 04-bert/                  BERT微调、预测和API实验
-05-llm/                   LLM相关实验，后续处理
+05-llm/                   LLM提示词分类和API实验
 06-bert_distill/          BERT蒸馏实验，后续处理
 reports/day02/            Day 2实验报告
 artifacts/day02/          Day 2可上传的小体积实验产物
@@ -223,6 +238,8 @@ seaborn==0.13.2
 torch==2.13.0
 transformers==4.57.6
 tqdm==4.67.3
+openai==2.45.0
+python-dotenv==1.2.2
 ```
 
 安装依赖：
@@ -230,6 +247,7 @@ tqdm==4.67.3
 ```powershell
 pip install -r requirements-day02.txt
 pip install -r requirements-day03.txt
+pip install -r requirements-day04.txt
 ```
 
 ## 常用命令
@@ -301,6 +319,20 @@ python 04-bert\bert_train.py
 ```
 
 说明：当前配置使用 CPU，完整 BERT 训练耗时较长；本地已通过现有权重完成测试集评估和预测链路验证。
+
+运行 DeepSeek 提示词分类：
+
+```powershell
+python 05-llm\deepseek_predict_fun.py
+```
+
+运行 LLM Flask API：
+
+```powershell
+python 05-llm\api_flask_server.py
+```
+
+说明：`05-llm/.env` 需要配置本地 API key，且该文件不会上传到 GitHub。当前 DeepSeek 调用已验证通过；Qwen 扩展脚本当前返回 401，需更新有效的 `DASHSCOPE_API_KEY` 后再运行。
 
 ## 已排除上传的内容
 
