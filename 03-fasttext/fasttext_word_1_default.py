@@ -8,13 +8,14 @@
 # 导包
 import fasttext # 需要安装fasttext: pip install fasttext-wheel
 from config import Config
+from fasttext_path import copy_back, fasttext_read_path, fasttext_write_path
 
 # 1.创建配置对象
 config = Config()
 
 # 2.模型训练
 model = fasttext.train_supervised(
-    input = config.word_train_path, # 按词分词的训练集
+    input = fasttext_read_path(config.word_train_path), # 按词分词的训练集
     dim=10, # 词向量的维度
     wordNgrams=2,   # N-gram特征的N
     epoch=10,    # 训练轮数
@@ -23,10 +24,13 @@ model = fasttext.train_supervised(
 
 # 3.模型保存
 # ft_model.bin -> ft_model_word_1.bin
-model.save_model(config.ft_model_path.replace(".bin", "_word_1.bin"))
+model_path = config.ft_model_path.replace(".bin", "_word_1.bin")
+save_path, final_path = fasttext_write_path(model_path)
+model.save_model(save_path)
+copy_back(save_path, final_path)
 print(f'模型保存到: {config.ft_model_path.replace(".bin", "_word_1.bin")}')
 # 4.模型评估
-result = model.test(config.word_test_path)
+result = model.test(fasttext_read_path(config.word_test_path))
 print(f"评估结果(样本数，精确率，召回率): {result}")
 # 精确率result[1],召回率result[2]
 f1_score = 2 * result[1]*result[2]/(result[1]+result[2])

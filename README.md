@@ -7,6 +7,7 @@
 - 数据质量核验与 EDA；
 - v2 高质量数据集构建；
 - 随机森林文本分类基线；
+- FastText 字符级/词级文本分类基线；
 - TF-IDF 词表泄漏受控实验；
 - 轻量化随机森林模型产物；
 - 实验报告和可复现脚本。
@@ -103,6 +104,19 @@ x_test = vectorizer.transform(test_words)
 - 依赖简单；
 - 适合作为轻量级文本分类基线。
 
+### 5. 保持原始流程，修复 Windows 中文路径运行问题
+
+FastText 的 Windows 原生库无法直接读取包含中文的文件路径。项目保留原训练逻辑，只在 FastText 读写文件的边界增加 ASCII 临时路径兼容层，使当前中文目录下也能完成训练、评估、保存和预测。
+
+当前 FastText 原始数据实验结果：
+
+| 实验 | Test F1 |
+|---|---:|
+| char_1_default | 0.919520 |
+| char_2_auto | 0.911211 |
+| word_1_default | 0.907407 |
+| word_2_auto | 0.915215 |
+
 ## 涉及知识点
 
 ### 数据处理
@@ -158,7 +172,7 @@ x_test = vectorizer.transform(test_words)
 02-rf/                    随机森林文本分类实验
 02-rf/v2/                 v2随机森林实验入口
 02-rf/controlled/         TF-IDF泄漏受控实验
-03-fasttext/              FastText实验，后续处理
+03-fasttext/              FastText文本分类实验
 04-bert/                  BERT实验，后续处理
 05-llm/                   LLM相关实验，后续处理
 06-bert_distill/          BERT蒸馏实验，后续处理
@@ -224,6 +238,36 @@ python 02-rf\v2\run_day02_v2.py
 python 02-rf\controlled\controlled_tfidf_experiment.py
 ```
 
+生成 FastText 输入数据：
+
+```powershell
+python 03-fasttext\data_process.py
+```
+
+运行 FastText 字符级手动调参：
+
+```powershell
+python 03-fasttext\fasttext_char_1_default.py
+```
+
+运行 FastText 词级手动调参：
+
+```powershell
+python 03-fasttext\fasttext_word_1_default.py
+```
+
+运行 FastText 字符级自动调参：
+
+```powershell
+python 03-fasttext\fasttext_char_2_auto.py
+```
+
+运行 FastText 词级自动调参：
+
+```powershell
+python 03-fasttext\fasttext_word_2_auto.py
+```
+
 ## 已排除上传的内容
 
 仓库没有上传以下内容：
@@ -241,7 +285,6 @@ python 02-rf\controlled\controlled_tfidf_experiment.py
 ```text
 手写最小随机森林版本
 -> 对照当前实验代码检查理解
--> FastText实验
 -> BERT实验
 -> 模型压缩与蒸馏
 ```

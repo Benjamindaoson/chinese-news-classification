@@ -10,6 +10,7 @@
 import fasttext
 import time
 from config import Config
+from fasttext_path import fasttext_read_path
 
 # 取消警告显示
 import warnings
@@ -29,7 +30,7 @@ np.array = patched_array
 config = Config()
 
 # 2.加载模型
-model = fasttext.load_model(config.ft_model_path.replace(".bin", "_char_1.bin"))
+model = fasttext.load_model(fasttext_read_path(config.ft_model_path.replace(".bin", "_char_1.bin")))
 # 3.定义函数，实现模型预测
 def predict_fun(data):
     """
