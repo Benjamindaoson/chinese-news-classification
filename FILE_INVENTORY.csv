@@ -1,98 +1,98 @@
-relative_path,file_name,extension,file_size,category,purpose,generated_or_source,referenced_by,important,notes
+﻿relative_path,file_name,extension,file_size,category,purpose,generated_or_source,referenced_by,important,notes
 .idea/08-live_code.iml,08-live_code.iml,.iml,325,configuration,IDE/cache/config/support file,source_or_data,,yes,
 .idea/inspectionProfiles/profiles_settings.xml,profiles_settings.xml,.xml,174,configuration,IDE/cache/config/support file,source_or_data,,yes,
 .idea/modules.xml,modules.xml,.xml,283,configuration,IDE/cache/config/support file,source_or_data,,yes,
 .idea/workspace.xml,workspace.xml,.xml,292,configuration,IDE/cache/config/support file,source_or_data,,yes,
-00-test/01_flask入门.py,01_flask入门.py,.py,991,source_code,course demo for Flask/Python basics,source,,yes,
-00-test/02_flask优化.py,02_flask优化.py,.py,4094,source_code,course demo for Flask/Python basics,source,,yes,
-00-test/10_扩展_演示Path.py,10_扩展_演示Path.py,.py,388,source_code,course demo for Flask/Python basics,source,00-test/10_扩展_演示Path.py,yes,
-00-test/11_扩展_list(字符串).py,11_扩展_list(字符串).py,.py,213,source_code,course demo for Flask/Python basics,source,,yes,
-00-test/12_扩展_解释zip.py,12_扩展_解释zip.py,.py,227,source_code,course demo for Flask/Python basics,source,,yes,
-00-test/img/img.jpg,img.jpg,.jpg,442264,image,course demo for Flask/Python basics,source_or_data,,no,
-01-data/__pycache__/config.cpython-310.pyc,config.cpython-310.pyc,.pyc,2160,model_output,"classification data, labels, stopwords, or processed split",generated,,no,
-01-data/bert-base-chinese/README.md,README.md,.md,2040,documentation,local bert-base-chinese model/tokenizer artifact,model_or_external_artifact,,yes,
-01-data/bert-base-chinese/config.json,config.json,.json,624,configuration,local bert-base-chinese model/tokenizer artifact,model_or_external_artifact,,yes,
-01-data/bert-base-chinese/configuration.json,configuration.json,.json,42,configuration,local bert-base-chinese model/tokenizer artifact,model_or_external_artifact,,yes,
-01-data/bert-base-chinese/model.safetensors,model.safetensors,.safetensors,411553788,model_weight,local bert-base-chinese model/tokenizer artifact,model_or_external_artifact,,yes,binary artifact metadata only; body not read
-01-data/bert-base-chinese/tokenizer.json,tokenizer.json,.json,439100,configuration,local bert-base-chinese model/tokenizer artifact,model_or_external_artifact,,yes,
-01-data/bert-base-chinese/tokenizer_config.json,tokenizer_config.json,.json,29,configuration,local bert-base-chinese model/tokenizer artifact,model_or_external_artifact,,yes,
-01-data/bert-base-chinese/vocab.txt,vocab.txt,.txt,109540,documentation,local bert-base-chinese model/tokenizer artifact,model_or_external_artifact,,yes,
-01-data/char_dev.txt,char_dev.txt,.txt,895083,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,03-fasttext/config.py; 04-bert/config.py; 06-bert_distill/config.py,yes,lines=9993; duplicate_lines=0; encoding=utf-8-sig
-01-data/char_test.txt,char_test.txt,.txt,895528,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,03-fasttext/config.py; 04-bert/config.py; 06-bert_distill/config.py,yes,lines=9990; duplicate_lines=0; encoding=utf-8-sig
-01-data/char_train.txt,char_train.txt,.txt,16070983,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,03-fasttext/config.py; 04-bert/config.py; 06-bert_distill/config.py,yes,lines=179000; duplicate_lines=0; encoding=utf-8-sig
-01-data/class.txt,class.txt,.txt,82,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,01-data/config.py; 02-rf/config.py; 03-fasttext/config.py; 04-bert/config.py; 06-bert_distill/config.py,yes,lines=10; duplicate_lines=0; encoding=utf-8-sig
-01-data/config.py,config.py,.py,2883,source_code,data path config and deduplication helper,source,,yes,
-01-data/data_eda.py,data_eda.py,.py,2019,source_code,basic data EDA script,source,,yes,
-01-data/dev.txt,dev.txt,.txt,560933,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,01-data/config.py; 02-rf/config.py; 03-fasttext/config.py; 04-bert/config.py; 06-bert_distill/config.py,yes,lines=9993; duplicate_lines=0; encoding=utf-8-sig
-01-data/dev_raw.txt,dev_raw.txt,.txt,551313,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,01-data/config.py,yes,lines=10000; duplicate_lines=7; encoding=utf-8-sig
-01-data/model/bert_model.pt,bert_model.pt,.pt,409183898,model_weight,saved trained model/vectorizer/compressed model artifact,model_or_external_artifact,04-bert/config.py; 06-bert_distill/config.py,yes,binary artifact metadata only; body not read
-01-data/model/bert_pruning.pt,bert_pruning.pt,.pt,409181560,model_weight,saved trained model/vectorizer/compressed model artifact,model_or_external_artifact,04-bert/config.py,yes,binary artifact metadata only; body not read
-01-data/model/bert_quantization.pt,bert_quantization.pt,.pt,152645347,model_weight,saved trained model/vectorizer/compressed model artifact,model_or_external_artifact,04-bert/config.py; 06-bert_distill/config.py,yes,binary artifact metadata only; body not read
-01-data/model/ft_model_char_1.bin,ft_model_char_1.bin,.bin,80252899,model_weight,saved trained model/vectorizer/compressed model artifact,model_or_external_artifact,03-fasttext/fasttext_char_1_default.py,yes,binary artifact metadata only; body not read
-01-data/model/ft_model_word_1.bin,ft_model_word_1.bin,.bin,86763478,model_weight,saved trained model/vectorizer/compressed model artifact,model_or_external_artifact,03-fasttext/fasttext_word_1_default.py,yes,binary artifact metadata only; body not read
-01-data/model/rf_model.pkl,rf_model.pkl,.pkl,178554208,model_weight,saved trained model/vectorizer/compressed model artifact,model_or_external_artifact,02-rf/config.py; 03-fasttext/config.py; 04-bert/config.py; 06-bert_distill/config.py,yes,binary artifact metadata only; body not read
-01-data/model/student_model.pt,student_model.pt,.pt,28280706,model_weight,saved trained model/vectorizer/compressed model artifact,model_or_external_artifact,06-bert_distill/config.py,yes,binary artifact metadata only; body not read
-01-data/model/tfidf_model.pkl,tfidf_model.pkl,.pkl,741542,model_weight,saved trained model/vectorizer/compressed model artifact,model_or_external_artifact,02-rf/config.py; 03-fasttext/config.py; 04-bert/config.py; 06-bert_distill/config.py,yes,binary artifact metadata only; body not read
-01-data/process_dev.csv,process_dev.csv,.csv,1209565,processed_data,"classification data, labels, stopwords, or processed split",source_or_data,02-rf/config.py; 03-fasttext/config.py; 04-bert/config.py; 06-bert_distill/config.py,yes,lines=9994; duplicate_lines=0; encoding=utf-8-sig
-01-data/process_test.csv,process_test.csv,.csv,1210192,processed_data,"classification data, labels, stopwords, or processed split",source_or_data,02-rf/config.py; 03-fasttext/config.py; 04-bert/config.py; 06-bert_distill/config.py,yes,lines=9991; duplicate_lines=0; encoding=utf-8-sig
-01-data/process_train.csv,process_train.csv,.csv,21726452,processed_data,"classification data, labels, stopwords, or processed split",source_or_data,02-rf/config.py; 03-fasttext/config.py; 04-bert/config.py; 06-bert_distill/config.py,yes,lines=179001; duplicate_lines=0; encoding=utf-8-sig
-01-data/stopwords.txt,stopwords.txt,.txt,5646,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,01-data/config.py; 02-rf/config.py; 03-fasttext/config.py; 04-bert/config.py; 06-bert_distill/config.py,yes,lines=810; duplicate_lines=14; encoding=utf-8-sig
-01-data/test.txt,test.txt,.txt,561066,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,01-data/config.py; 02-rf/config.py; 03-fasttext/config.py; 04-bert/config.py; 06-bert_distill/config.py,yes,lines=9990; duplicate_lines=0; encoding=utf-8-sig
-01-data/test_raw.txt,test_raw.txt,.txt,551596,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,01-data/config.py,yes,lines=10000; duplicate_lines=10; encoding=utf-8-sig
-01-data/train.txt,train.txt,.txt,10071669,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,01-data/config.py; 02-rf/config.py; 03-fasttext/config.py; 04-bert/config.py; 06-bert_distill/config.py,yes,lines=179000; duplicate_lines=0; encoding=utf-8-sig
-01-data/train_raw.txt,train_raw.txt,.txt,9946123,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,01-data/config.py,yes,lines=180000; duplicate_lines=1000; encoding=utf-8-sig
-01-data/word_dev.txt,word_dev.txt,.txt,805562,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,03-fasttext/config.py; 04-bert/config.py; 06-bert_distill/config.py,yes,lines=9993; duplicate_lines=0; encoding=utf-8-sig
-01-data/word_test.txt,word_test.txt,.txt,805991,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,03-fasttext/config.py; 04-bert/config.py; 06-bert_distill/config.py,yes,lines=9990; duplicate_lines=0; encoding=utf-8-sig
-01-data/word_train.txt,word_train.txt,.txt,14466096,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,03-fasttext/config.py; 04-bert/config.py; 06-bert_distill/config.py,yes,lines=179000; duplicate_lines=0; encoding=utf-8-sig
-02-rf/__pycache__/config.cpython-310.pyc,config.cpython-310.pyc,.pyc,1928,model_output,RF module source,generated,,no,
-02-rf/__pycache__/rf_predict_fun.cpython-310.pyc,rf_predict_fun.cpython-310.pyc,.pyc,1999,model_output,RF module source,generated,,no,
-02-rf/api_flask_server.py,api_flask_server.py,.py,1257,web_app,RF Flask API,source,,yes,
-02-rf/api_test.py,api_test.py,.py,627,source_code,RF API smoke client,source,,yes,
-02-rf/config.py,config.py,.py,2767,source_code,RF module config,source,,yes,
-02-rf/data_process.py,data_process.py,.py,1776,source_code,jieba preprocessing to process_*.csv,source,,yes,
-02-rf/rf_predict_fun.py,rf_predict_fun.py,.py,2109,source_code,single-text RF prediction helper,source,,yes,
-02-rf/rf_test.py,rf_test.py,.py,2711,source_code,evaluate RF on process_test.csv,source,,yes,
-02-rf/rf_train.py,rf_train.py,.py,4497,source_code,train TF-IDF + RandomForest and save pkl files,source,,yes,
-02-rf/streamlit_app.py,streamlit_app.py,.py,1334,web_app,RF Streamlit UI,source,,yes,
-03-fasttext/__pycache__/config.cpython-310.pyc,config.cpython-310.pyc,.pyc,2815,model_output,FastText train/eval script,generated,,no,
-03-fasttext/__pycache__/fasttext_predict_fun.cpython-310.pyc,fasttext_predict_fun.cpython-310.pyc,.pyc,1638,model_output,FastText train/eval script,generated,,no,
-03-fasttext/api_flask_server.py,api_flask_server.py,.py,1263,web_app,FastText Flask API,source,,yes,
-03-fasttext/config.py,config.py,.py,3775,source_code,FastText module config,source,,yes,
-03-fasttext/data_process.py,data_process.py,.py,2723,source_code,convert processed CSV to FastText word/char files,source,,yes,
-03-fasttext/fasttext_char_1_default.py,fasttext_char_1_default.py,.py,1259,source_code,FastText train/eval script,source,,yes,
-03-fasttext/fasttext_char_2_auto.py,fasttext_char_2_auto.py,.py,1335,source_code,FastText train/eval script,source,,yes,
-03-fasttext/fasttext_predict_fun.py,fasttext_predict_fun.py,.py,2050,source_code,single-text FastText prediction helper,source,,yes,
-03-fasttext/fasttext_word_1_default.py,fasttext_word_1_default.py,.py,1259,source_code,FastText train/eval script,source,,yes,
-03-fasttext/fasttext_word_2_auto.py,fasttext_word_2_auto.py,.py,1335,source_code,FastText train/eval script,source,,yes,
-03-fasttext/streamlit_app.py,streamlit_app.py,.py,1330,web_app,FastText Streamlit UI,source,,yes,
-04-bert/__pycache__/bert_predict_fun.cpython-310.pyc,bert_predict_fun.cpython-310.pyc,.pyc,1677,model_output,BERT module source,generated,,no,
-04-bert/__pycache__/bert_train.cpython-310.pyc,bert_train.cpython-310.pyc,.pyc,10045,model_output,BERT module source,generated,,no,
-04-bert/__pycache__/config.cpython-310.pyc,config.cpython-310.pyc,.pyc,3236,model_output,BERT module source,generated,,no,
-04-bert/api_flask_server.py,api_flask_server.py,.py,1259,web_app,BERT Flask API,source,,yes,
-04-bert/api_test.py,api_test.py,.py,627,source_code,BERT API smoke client,source,,yes,
-04-bert/bert_predict_fun.py,bert_predict_fun.py,.py,2500,source_code,single-text BERT prediction helper,source,,yes,
-04-bert/bert_pruning.py,bert_pruning.py,.py,4139,source_code,unstructured pruning script,source,,yes,
-04-bert/bert_quantization.py,bert_quantization.py,.py,2343,source_code,dynamic quantization script,source,,yes,
-04-bert/bert_train.py,bert_train.py,.py,17799,source_code,BERT dataset/model/train/eval/test flow,source,,yes,
-04-bert/config.py,config.py,.py,5320,source_code,BERT module config,source,,yes,
-04-bert/streamlit_app.py,streamlit_app.py,.py,1326,web_app,BERT Streamlit UI,source,,yes,
-05-llm/.env,.env,,107,unknown,live API key environment file,source_or_data,,no,contains live API keys; rotate/remove before sharing
-05-llm/01_deepseek_api接口演示.py,01_deepseek_api接口演示.py,.py,1513,source_code,LLM API demo script,source,,yes,
-05-llm/02_提示词工程完成文本分类.py,02_提示词工程完成文本分类.py,.py,2032,source_code,LLM API demo script,source,,yes,
-05-llm/10_扩展_qwen_api接口调用.py,10_扩展_qwen_api接口调用.py,.py,1414,source_code,LLM API demo script,source,,yes,
-05-llm/__pycache__/deepseek_predict_fun.cpython-310.pyc,deepseek_predict_fun.cpython-310.pyc,.pyc,2125,model_output,LLM API demo script,generated,,no,
-05-llm/api_flask_server.py,api_flask_server.py,.py,1267,web_app,LLM Flask API,source,,yes,
-05-llm/deepseek_predict_fun.py,deepseek_predict_fun.py,.py,2807,source_code,DeepSeek prompt classification helper,source,,yes,
-05-llm/streamlit_app.py,streamlit_app.py,.py,1313,web_app,LLM Streamlit UI,source,,yes,
-06-bert_distill/__pycache__/bert_predict_fun.cpython-310.pyc,bert_predict_fun.cpython-310.pyc,.pyc,2091,model_output,distillation module source,generated,,no,
-06-bert_distill/__pycache__/bert_train.cpython-310.pyc,bert_train.cpython-310.pyc,.pyc,10053,model_output,distillation module source,generated,,no,
-06-bert_distill/__pycache__/config.cpython-310.pyc,config.cpython-310.pyc,.pyc,3405,model_output,distillation module source,generated,,no,
-06-bert_distill/__pycache__/student_train.cpython-310.pyc,student_train.cpython-310.pyc,.pyc,12423,model_output,distillation module source,generated,,no,
-06-bert_distill/api_flask_server.py,api_flask_server.py,.py,1814,web_app,teacher/student Flask API,source,,yes,
-06-bert_distill/api_test.py,api_test.py,.py,627,source_code,API smoke client,source,,yes,
-06-bert_distill/bert_predict_fun.py,bert_predict_fun.py,.py,4629,source_code,teacher/student prediction helper,source,,yes,
-06-bert_distill/bert_quantization.py,bert_quantization.py,.py,2343,source_code,copied quantization script,source,,yes,
-06-bert_distill/bert_train.py,bert_train.py,.py,17799,source_code,copied BERT teacher training flow,source,,yes,
-06-bert_distill/config.py,config.py,.py,5466,source_code,distillation module config,source,,yes,
-06-bert_distill/streamlit_app.py,streamlit_app.py,.py,2248,web_app,teacher/student Streamlit UI,source,02-rf/streamlit_app.py; 03-fasttext/streamlit_app.py; 04-bert/streamlit_app.py; 05-llm/streamlit_app.py; 06-bert_distill/streamlit_app.py,yes,
-06-bert_distill/student_train.py,student_train.py,.py,22442,source_code,student distillation train/eval/test flow,source,,yes,
+examples/01_flask入门.py,01_flask入门.py,.py,991,source_code,course demo for Flask/Python basics,source,,yes,
+examples/02_flask优化.py,02_flask优化.py,.py,4094,source_code,course demo for Flask/Python basics,source,,yes,
+examples/10_扩展_演示Path.py,10_扩展_演示Path.py,.py,388,source_code,course demo for Flask/Python basics,source,examples/10_扩展_演示Path.py,yes,
+examples/11_扩展_list(字符串).py,11_扩展_list(字符串).py,.py,213,source_code,course demo for Flask/Python basics,source,,yes,
+examples/12_扩展_解释zip.py,12_扩展_解释zip.py,.py,227,source_code,course demo for Flask/Python basics,source,,yes,
+examples/img/img.jpg,img.jpg,.jpg,442264,image,course demo for Flask/Python basics,source_or_data,,no,
+data/__pycache__/config.cpython-310.pyc,config.cpython-310.pyc,.pyc,2160,model_output,"classification data, labels, stopwords, or processed split",generated,,no,
+data/bert-base-chinese/README.md,README.md,.md,2040,documentation,local bert-base-chinese model/tokenizer artifact,model_or_external_artifact,,yes,
+data/bert-base-chinese/config.json,config.json,.json,624,configuration,local bert-base-chinese model/tokenizer artifact,model_or_external_artifact,,yes,
+data/bert-base-chinese/configuration.json,configuration.json,.json,42,configuration,local bert-base-chinese model/tokenizer artifact,model_or_external_artifact,,yes,
+data/bert-base-chinese/model.safetensors,model.safetensors,.safetensors,411553788,model_weight,local bert-base-chinese model/tokenizer artifact,model_or_external_artifact,,yes,binary artifact metadata only; body not read
+data/bert-base-chinese/tokenizer.json,tokenizer.json,.json,439100,configuration,local bert-base-chinese model/tokenizer artifact,model_or_external_artifact,,yes,
+data/bert-base-chinese/tokenizer_config.json,tokenizer_config.json,.json,29,configuration,local bert-base-chinese model/tokenizer artifact,model_or_external_artifact,,yes,
+data/bert-base-chinese/vocab.txt,vocab.txt,.txt,109540,documentation,local bert-base-chinese model/tokenizer artifact,model_or_external_artifact,,yes,
+data/char_dev.txt,char_dev.txt,.txt,895083,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,fasttext/config.py; bert_finetuning/config.py; bert_compression/config.py,yes,lines=9993; duplicate_lines=0; encoding=utf-8-sig
+data/char_test.txt,char_test.txt,.txt,895528,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,fasttext/config.py; bert_finetuning/config.py; bert_compression/config.py,yes,lines=9990; duplicate_lines=0; encoding=utf-8-sig
+data/char_train.txt,char_train.txt,.txt,16070983,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,fasttext/config.py; bert_finetuning/config.py; bert_compression/config.py,yes,lines=179000; duplicate_lines=0; encoding=utf-8-sig
+data/class.txt,class.txt,.txt,82,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,data/config.py; random_forest/config.py; fasttext/config.py; bert_finetuning/config.py; bert_compression/config.py,yes,lines=10; duplicate_lines=0; encoding=utf-8-sig
+data/config.py,config.py,.py,2883,source_code,data path config and deduplication helper,source,,yes,
+data/data_eda.py,data_eda.py,.py,2019,source_code,basic data EDA script,source,,yes,
+data/dev.txt,dev.txt,.txt,560933,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,data/config.py; random_forest/config.py; fasttext/config.py; bert_finetuning/config.py; bert_compression/config.py,yes,lines=9993; duplicate_lines=0; encoding=utf-8-sig
+data/dev_raw.txt,dev_raw.txt,.txt,551313,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,data/config.py,yes,lines=10000; duplicate_lines=7; encoding=utf-8-sig
+data/model/bert_model.pt,bert_model.pt,.pt,409183898,model_weight,saved trained model/vectorizer/compressed model artifact,model_or_external_artifact,bert_finetuning/config.py; bert_compression/config.py,yes,binary artifact metadata only; body not read
+data/model/bert_pruning.pt,bert_pruning.pt,.pt,409181560,model_weight,saved trained model/vectorizer/compressed model artifact,model_or_external_artifact,bert_finetuning/config.py,yes,binary artifact metadata only; body not read
+data/model/bert_quantization.pt,bert_quantization.pt,.pt,152645347,model_weight,saved trained model/vectorizer/compressed model artifact,model_or_external_artifact,bert_finetuning/config.py; bert_compression/config.py,yes,binary artifact metadata only; body not read
+data/model/ft_model_char_1.bin,ft_model_char_1.bin,.bin,80252899,model_weight,saved trained model/vectorizer/compressed model artifact,model_or_external_artifact,fasttext/fasttext_char_1_default.py,yes,binary artifact metadata only; body not read
+data/model/ft_model_word_1.bin,ft_model_word_1.bin,.bin,86763478,model_weight,saved trained model/vectorizer/compressed model artifact,model_or_external_artifact,fasttext/fasttext_word_1_default.py,yes,binary artifact metadata only; body not read
+data/model/rf_model.pkl,rf_model.pkl,.pkl,178554208,model_weight,saved trained model/vectorizer/compressed model artifact,model_or_external_artifact,random_forest/config.py; fasttext/config.py; bert_finetuning/config.py; bert_compression/config.py,yes,binary artifact metadata only; body not read
+data/model/student_model.pt,student_model.pt,.pt,28280706,model_weight,saved trained model/vectorizer/compressed model artifact,model_or_external_artifact,bert_compression/config.py,yes,binary artifact metadata only; body not read
+data/model/tfidf_model.pkl,tfidf_model.pkl,.pkl,741542,model_weight,saved trained model/vectorizer/compressed model artifact,model_or_external_artifact,random_forest/config.py; fasttext/config.py; bert_finetuning/config.py; bert_compression/config.py,yes,binary artifact metadata only; body not read
+data/process_dev.csv,process_dev.csv,.csv,1209565,processed_data,"classification data, labels, stopwords, or processed split",source_or_data,random_forest/config.py; fasttext/config.py; bert_finetuning/config.py; bert_compression/config.py,yes,lines=9994; duplicate_lines=0; encoding=utf-8-sig
+data/process_test.csv,process_test.csv,.csv,1210192,processed_data,"classification data, labels, stopwords, or processed split",source_or_data,random_forest/config.py; fasttext/config.py; bert_finetuning/config.py; bert_compression/config.py,yes,lines=9991; duplicate_lines=0; encoding=utf-8-sig
+data/process_train.csv,process_train.csv,.csv,21726452,processed_data,"classification data, labels, stopwords, or processed split",source_or_data,random_forest/config.py; fasttext/config.py; bert_finetuning/config.py; bert_compression/config.py,yes,lines=179001; duplicate_lines=0; encoding=utf-8-sig
+data/stopwords.txt,stopwords.txt,.txt,5646,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,data/config.py; random_forest/config.py; fasttext/config.py; bert_finetuning/config.py; bert_compression/config.py,yes,lines=810; duplicate_lines=14; encoding=utf-8-sig
+data/test.txt,test.txt,.txt,561066,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,data/config.py; random_forest/config.py; fasttext/config.py; bert_finetuning/config.py; bert_compression/config.py,yes,lines=9990; duplicate_lines=0; encoding=utf-8-sig
+data/test_raw.txt,test_raw.txt,.txt,551596,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,data/config.py,yes,lines=10000; duplicate_lines=10; encoding=utf-8-sig
+data/train.txt,train.txt,.txt,10071669,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,data/config.py; random_forest/config.py; fasttext/config.py; bert_finetuning/config.py; bert_compression/config.py,yes,lines=179000; duplicate_lines=0; encoding=utf-8-sig
+data/train_raw.txt,train_raw.txt,.txt,9946123,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,data/config.py,yes,lines=180000; duplicate_lines=1000; encoding=utf-8-sig
+data/word_dev.txt,word_dev.txt,.txt,805562,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,fasttext/config.py; bert_finetuning/config.py; bert_compression/config.py,yes,lines=9993; duplicate_lines=0; encoding=utf-8-sig
+data/word_test.txt,word_test.txt,.txt,805991,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,fasttext/config.py; bert_finetuning/config.py; bert_compression/config.py,yes,lines=9990; duplicate_lines=0; encoding=utf-8-sig
+data/word_train.txt,word_train.txt,.txt,14466096,raw_data,"classification data, labels, stopwords, or processed split",source_or_data,fasttext/config.py; bert_finetuning/config.py; bert_compression/config.py,yes,lines=179000; duplicate_lines=0; encoding=utf-8-sig
+random_forest/__pycache__/config.cpython-310.pyc,config.cpython-310.pyc,.pyc,1928,model_output,RF module source,generated,,no,
+random_forest/__pycache__/rf_predict_fun.cpython-310.pyc,rf_predict_fun.cpython-310.pyc,.pyc,1999,model_output,RF module source,generated,,no,
+random_forest/api_flask_server.py,api_flask_server.py,.py,1257,web_app,RF Flask API,source,,yes,
+random_forest/api_test.py,api_test.py,.py,627,source_code,RF API smoke client,source,,yes,
+random_forest/config.py,config.py,.py,2767,source_code,RF module config,source,,yes,
+random_forest/data_process.py,data_process.py,.py,1776,source_code,jieba preprocessing to process_*.csv,source,,yes,
+random_forest/rf_predict_fun.py,rf_predict_fun.py,.py,2109,source_code,single-text RF prediction helper,source,,yes,
+random_forest/rf_test.py,rf_test.py,.py,2711,source_code,evaluate RF on process_test.csv,source,,yes,
+random_forest/rf_train.py,rf_train.py,.py,4497,source_code,train TF-IDF + RandomForest and save pkl files,source,,yes,
+random_forest/streamlit_app.py,streamlit_app.py,.py,1334,web_app,RF Streamlit UI,source,,yes,
+fasttext/__pycache__/config.cpython-310.pyc,config.cpython-310.pyc,.pyc,2815,model_output,FastText train/eval script,generated,,no,
+fasttext/__pycache__/fasttext_predict_fun.cpython-310.pyc,fasttext_predict_fun.cpython-310.pyc,.pyc,1638,model_output,FastText train/eval script,generated,,no,
+fasttext/api_flask_server.py,api_flask_server.py,.py,1263,web_app,FastText Flask API,source,,yes,
+fasttext/config.py,config.py,.py,3775,source_code,FastText module config,source,,yes,
+fasttext/data_process.py,data_process.py,.py,2723,source_code,convert processed CSV to FastText word/char files,source,,yes,
+fasttext/fasttext_char_1_default.py,fasttext_char_1_default.py,.py,1259,source_code,FastText train/eval script,source,,yes,
+fasttext/fasttext_char_2_auto.py,fasttext_char_2_auto.py,.py,1335,source_code,FastText train/eval script,source,,yes,
+fasttext/fasttext_predict_fun.py,fasttext_predict_fun.py,.py,2050,source_code,single-text FastText prediction helper,source,,yes,
+fasttext/fasttext_word_1_default.py,fasttext_word_1_default.py,.py,1259,source_code,FastText train/eval script,source,,yes,
+fasttext/fasttext_word_2_auto.py,fasttext_word_2_auto.py,.py,1335,source_code,FastText train/eval script,source,,yes,
+fasttext/streamlit_app.py,streamlit_app.py,.py,1330,web_app,FastText Streamlit UI,source,,yes,
+bert_finetuning/__pycache__/bert_predict_fun.cpython-310.pyc,bert_predict_fun.cpython-310.pyc,.pyc,1677,model_output,BERT module source,generated,,no,
+bert_finetuning/__pycache__/bert_train.cpython-310.pyc,bert_train.cpython-310.pyc,.pyc,10045,model_output,BERT module source,generated,,no,
+bert_finetuning/__pycache__/config.cpython-310.pyc,config.cpython-310.pyc,.pyc,3236,model_output,BERT module source,generated,,no,
+bert_finetuning/api_flask_server.py,api_flask_server.py,.py,1259,web_app,BERT Flask API,source,,yes,
+bert_finetuning/api_test.py,api_test.py,.py,627,source_code,BERT API smoke client,source,,yes,
+bert_finetuning/bert_predict_fun.py,bert_predict_fun.py,.py,2500,source_code,single-text BERT prediction helper,source,,yes,
+bert_finetuning/bert_pruning.py,bert_pruning.py,.py,4139,source_code,unstructured pruning script,source,,yes,
+bert_finetuning/bert_quantization.py,bert_quantization.py,.py,2343,source_code,dynamic quantization script,source,,yes,
+bert_finetuning/bert_train.py,bert_train.py,.py,17799,source_code,BERT dataset/model/train/eval/test flow,source,,yes,
+bert_finetuning/config.py,config.py,.py,5320,source_code,BERT module config,source,,yes,
+bert_finetuning/streamlit_app.py,streamlit_app.py,.py,1326,web_app,BERT Streamlit UI,source,,yes,
+llm_prompting/.env,.env,,107,unknown,live API key environment file,source_or_data,,no,contains live API keys; rotate/remove before sharing
+llm_prompting/01_deepseek_api接口演示.py,01_deepseek_api接口演示.py,.py,1513,source_code,LLM API demo script,source,,yes,
+llm_prompting/02_提示词工程完成文本分类.py,02_提示词工程完成文本分类.py,.py,2032,source_code,LLM API demo script,source,,yes,
+llm_prompting/10_扩展_qwen_api接口调用.py,10_扩展_qwen_api接口调用.py,.py,1414,source_code,LLM API demo script,source,,yes,
+llm_prompting/__pycache__/deepseek_predict_fun.cpython-310.pyc,deepseek_predict_fun.cpython-310.pyc,.pyc,2125,model_output,LLM API demo script,generated,,no,
+llm_prompting/api_flask_server.py,api_flask_server.py,.py,1267,web_app,LLM Flask API,source,,yes,
+llm_prompting/deepseek_predict_fun.py,deepseek_predict_fun.py,.py,2807,source_code,DeepSeek prompt classification helper,source,,yes,
+llm_prompting/streamlit_app.py,streamlit_app.py,.py,1313,web_app,LLM Streamlit UI,source,,yes,
+bert_compression/__pycache__/bert_predict_fun.cpython-310.pyc,bert_predict_fun.cpython-310.pyc,.pyc,2091,model_output,distillation module source,generated,,no,
+bert_compression/__pycache__/bert_train.cpython-310.pyc,bert_train.cpython-310.pyc,.pyc,10053,model_output,distillation module source,generated,,no,
+bert_compression/__pycache__/config.cpython-310.pyc,config.cpython-310.pyc,.pyc,3405,model_output,distillation module source,generated,,no,
+bert_compression/__pycache__/student_train.cpython-310.pyc,student_train.cpython-310.pyc,.pyc,12423,model_output,distillation module source,generated,,no,
+bert_compression/api_flask_server.py,api_flask_server.py,.py,1814,web_app,teacher/student Flask API,source,,yes,
+bert_compression/api_test.py,api_test.py,.py,627,source_code,API smoke client,source,,yes,
+bert_compression/bert_predict_fun.py,bert_predict_fun.py,.py,4629,source_code,teacher/student prediction helper,source,,yes,
+bert_compression/bert_quantization.py,bert_quantization.py,.py,2343,source_code,copied quantization script,source,,yes,
+bert_compression/bert_train.py,bert_train.py,.py,17799,source_code,copied BERT teacher training flow,source,,yes,
+bert_compression/config.py,config.py,.py,5466,source_code,distillation module config,source,,yes,
+bert_compression/streamlit_app.py,streamlit_app.py,.py,2248,web_app,teacher/student Streamlit UI,source,random_forest/streamlit_app.py; fasttext/streamlit_app.py; bert_finetuning/streamlit_app.py; llm_prompting/streamlit_app.py; bert_compression/streamlit_app.py,yes,
+bert_compression/student_train.py,student_train.py,.py,22442,source_code,student distillation train/eval/test flow,source,,yes,

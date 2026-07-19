@@ -6,7 +6,7 @@
 .idea/
 
 # Large/generated model artifacts not suitable for normal GitHub push.
-01-data/model/
-01-data/bert-base-chinese/
-artifacts/day02/baseline/rf_baseline.pkl
-artifacts/day02/controlled/*_rf.pkl
+data/model/
+data/bert-base-chinese/
+artifacts/random_forest/baseline/rf_baseline.pkl
+artifacts/random_forest/controlled/*_rf.pkl

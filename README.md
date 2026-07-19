@@ -1,4 +1,4 @@
-# 中文新闻分类实验项目
+﻿# 中文新闻分类实验项目
 
 这是一个中文新闻标题分类项目，围绕数据清洗、EDA、特征工程、随机森林建模、实验对照和结果分析构建。项目目标不是只跑出一个模型分数，而是把一个文本分类任务做成可复现、可审计、可对比的机器学习实验流程。
 
@@ -22,9 +22,9 @@
 项目没有直接覆盖原始数据，而是额外生成：
 
 ```text
-01-data/v2/train_v2.txt
-01-data/v2/dev_v2.txt
-01-data/v2/test_v2.txt
+data/v2/train_v2.txt
+data/v2/dev_v2.txt
+data/v2/test_v2.txt
 ```
 
 v2 数据集处理了两类常见但容易被忽略的数据问题：
@@ -213,28 +213,28 @@ FastText 的 Windows 原生库无法直接读取包含中文的文件路径。�
 ## 项目目录
 
 ```text
-01-data/                  数据、清洗脚本、EDA脚本
-01-data/v2/               v2数据集与清洗报告
-02-rf/                    随机森林文本分类实验
-02-rf/v2/                 v2随机森林实验入口
-02-rf/controlled/         TF-IDF泄漏受控实验
-03-fasttext/              FastText文本分类实验
-04-bert/                  BERT微调、预测和API实验
-05-llm/                   LLM提示词分类和API实验
-06-bert_distill/          BERT教师/学生蒸馏和API实验
-reports/day02/            Day 2实验报告
-artifacts/day02/          Day 2可上传的小体积实验产物
+data/                  数据、清洗脚本、EDA脚本
+data/v2/               v2数据集与清洗报告
+random_forest/                    随机森林文本分类实验
+random_forest/v2/                 v2随机森林实验入口
+random_forest/controlled/         TF-IDF泄漏受控实验
+fasttext/              FastText文本分类实验
+bert_finetuning/                  BERT微调、预测和API实验
+llm_prompting/                   LLM提示词分类和API实验
+bert_compression/          BERT教师/学生蒸馏和API实验
+reports/random_forest/            随机森林实验报告
+artifacts/random_forest/          随机森林可上传的小体积实验产物
 ```
 
 ## 当前报告
 
 ```text
-DAY01_BASELINE_REPORT.md
-01-data/v2/DATASET_V2.md
-01-data/v2/data_cleaning_report.json
-reports/day02/DAY02_COMPARISON.md
-reports/day02/verification.json
-reports/day02/source_reference_hashes.json
+DATA_BASELINE_REPORT.md
+data/v2/DATASET_V2.md
+data/v2/data_cleaning_report.json
+reports/random_forest/RANDOM_FOREST_COMPARISON.md
+reports/random_forest/verification.json
+reports/random_forest/source_reference_hashes.json
 ```
 
 ## 环境
@@ -260,10 +260,10 @@ python-dotenv==1.2.2
 安装依赖：
 
 ```powershell
-pip install -r requirements-day02.txt
-pip install -r requirements-day03.txt
-pip install -r requirements-day04.txt
-pip install -r requirements-day05.txt
+pip install -r requirements-random-forest-fasttext.txt
+pip install -r requirements-bert.txt
+pip install -r requirements-llm.txt
+pip install -r requirements-compression.txt
 ```
 
 ## 常用命令
@@ -271,67 +271,67 @@ pip install -r requirements-day05.txt
 生成 v2 数据集：
 
 ```powershell
-python 01-data\build_dataset_v2.py
+python data\build_dataset_v2.py
 ```
 
 运行随机森林实验：
 
 ```powershell
-python 02-rf\run_day02.py
+python random_forest\run_random_forest.py
 ```
 
 运行 v2 随机森林实验：
 
 ```powershell
-python 02-rf\v2\run_day02_v2.py
+python random_forest\v2\run_random_forest_v2.py
 ```
 
 运行 TF-IDF 泄漏受控实验：
 
 ```powershell
-python 02-rf\controlled\controlled_tfidf_experiment.py
+python random_forest\controlled\controlled_tfidf_experiment.py
 ```
 
 生成 FastText 输入数据：
 
 ```powershell
-python 03-fasttext\data_process.py
+python fasttext\data_process.py
 ```
 
 运行 FastText 字符级手动调参：
 
 ```powershell
-python 03-fasttext\fasttext_char_1_default.py
+python fasttext\fasttext_char_1_default.py
 ```
 
 运行 FastText 词级手动调参：
 
 ```powershell
-python 03-fasttext\fasttext_word_1_default.py
+python fasttext\fasttext_word_1_default.py
 ```
 
 运行 FastText 字符级自动调参：
 
 ```powershell
-python 03-fasttext\fasttext_char_2_auto.py
+python fasttext\fasttext_char_2_auto.py
 ```
 
 运行 FastText 词级自动调参：
 
 ```powershell
-python 03-fasttext\fasttext_word_2_auto.py
+python fasttext\fasttext_word_2_auto.py
 ```
 
 运行 BERT 离线预测：
 
 ```powershell
-python 04-bert\bert_predict_fun.py
+python bert_finetuning\bert_predict_fun.py
 ```
 
 运行 BERT 训练脚本：
 
 ```powershell
-python 04-bert\bert_train.py
+python bert_finetuning\bert_train.py
 ```
 
 说明：当前配置使用 CPU，完整 BERT 训练耗时较长；本地已通过现有权重完成测试集评估和预测链路验证。
@@ -339,39 +339,39 @@ python 04-bert\bert_train.py
 运行 DeepSeek 提示词分类：
 
 ```powershell
-python 05-llm\deepseek_predict_fun.py
+python llm_prompting\deepseek_predict_fun.py
 ```
 
 运行 LLM Flask API：
 
 ```powershell
-python 05-llm\api_flask_server.py
+python llm_prompting\api_flask_server.py
 ```
 
-说明：`05-llm/.env` 需要配置本地 API key，且该文件不会上传到 GitHub。当前 DeepSeek 调用已验证通过；Qwen 扩展脚本当前返回 401，需更新有效的 `DASHSCOPE_API_KEY` 后再运行。
+说明：`llm_prompting/.env` 需要配置本地 API key，且该文件不会上传到 GitHub。当前 DeepSeek 调用已验证通过；Qwen 扩展脚本当前返回 401，需更新有效的 `DASHSCOPE_API_KEY` 后再运行。
 
 运行 BERT 动态量化：
 
 ```powershell
-python 04-bert\bert_quantization.py
+python bert_finetuning\bert_quantization.py
 ```
 
 运行 BERT 非结构化剪枝：
 
 ```powershell
-python 04-bert\bert_pruning.py
+python bert_finetuning\bert_pruning.py
 ```
 
 运行教师/学生模型预测：
 
 ```powershell
-python 06-bert_distill\bert_predict_fun.py
+python bert_compression\bert_predict_fun.py
 ```
 
 运行蒸馏训练脚本：
 
 ```powershell
-python 06-bert_distill\student_train.py
+python bert_compression\student_train.py
 ```
 
 说明：当前 CPU 环境下完整 BERT/蒸馏训练耗时较长；本地已通过已有权重完成评估、预测、API 和一批次反向传播验证。
