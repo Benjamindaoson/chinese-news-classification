@@ -10,6 +10,7 @@
 - FastText 字符级/词级文本分类基线；
 - BERT 微调模型加载、评估、预测和 API 验证；
 - LLM 提示词分类、DeepSeek API 和 Flask 路由验证；
+- BERT 动态量化、非结构化剪枝和学生模型蒸馏验证；
 - TF-IDF 词表泄漏受控实验；
 - 轻量化随机森林模型产物；
 - 实验报告和可复现脚本。
@@ -141,6 +142,17 @@ FastText 的 Windows 原生库无法直接读取包含中文的文件路径。�
 
 说明：LLM API 输出存在非确定性，同一文本在不同调用中可能返回相近但不同的类别。当前阶段保持原提示词和原调用参数，不做重构。
 
+### 8. BERT 模型压缩复现
+
+项目验证了三类模型压缩方法：动态量化、非结构化剪枝和知识蒸馏。当前阶段保持原始脚本逻辑，只修复蒸馏 API 测试脚本的路由地址。
+
+| 方法 | Test Macro-F1 | 说明 |
+|---|---:|---|
+| 原始 BERT | 0.941550 | 教师模型 |
+| 动态量化 | 0.929600 | 量化 `nn.Linear`，保存为 `bert_quantization.pt` |
+| 非结构化剪枝 | 0.940831 | query 权重剪枝比例 0.6，稀疏度约 0.6 |
+| 学生模型蒸馏 | 0.896735 | 2 层小 BERT，保存为 `student_model.pt` |
+
 ## 涉及知识点
 
 ### 数据处理
@@ -171,6 +183,9 @@ FastText 的 Windows 原生库无法直接读取包含中文的文件路径。�
 - 预训练 BERT 下游微调；
 - LLM 提示词分类；
 - OpenAI 兼容 Chat Completions API；
+- PyTorch 动态量化；
+- 非结构化剪枝；
+- 软标签知识蒸馏；
 - 词表拟合范围控制；
 - 稀疏矩阵特征建模。
 
@@ -206,7 +221,7 @@ FastText 的 Windows 原生库无法直接读取包含中文的文件路径。�
 03-fasttext/              FastText文本分类实验
 04-bert/                  BERT微调、预测和API实验
 05-llm/                   LLM提示词分类和API实验
-06-bert_distill/          BERT蒸馏实验，后续处理
+06-bert_distill/          BERT教师/学生蒸馏和API实验
 reports/day02/            Day 2实验报告
 artifacts/day02/          Day 2可上传的小体积实验产物
 ```
@@ -248,6 +263,7 @@ python-dotenv==1.2.2
 pip install -r requirements-day02.txt
 pip install -r requirements-day03.txt
 pip install -r requirements-day04.txt
+pip install -r requirements-day05.txt
 ```
 
 ## 常用命令
@@ -334,6 +350,32 @@ python 05-llm\api_flask_server.py
 
 说明：`05-llm/.env` 需要配置本地 API key，且该文件不会上传到 GitHub。当前 DeepSeek 调用已验证通过；Qwen 扩展脚本当前返回 401，需更新有效的 `DASHSCOPE_API_KEY` 后再运行。
 
+运行 BERT 动态量化：
+
+```powershell
+python 04-bert\bert_quantization.py
+```
+
+运行 BERT 非结构化剪枝：
+
+```powershell
+python 04-bert\bert_pruning.py
+```
+
+运行教师/学生模型预测：
+
+```powershell
+python 06-bert_distill\bert_predict_fun.py
+```
+
+运行蒸馏训练脚本：
+
+```powershell
+python 06-bert_distill\student_train.py
+```
+
+说明：当前 CPU 环境下完整 BERT/蒸馏训练耗时较长；本地已通过已有权重完成评估、预测、API 和一批次反向传播验证。
+
 ## 已排除上传的内容
 
 仓库没有上传以下内容：
@@ -351,5 +393,5 @@ python 05-llm\api_flask_server.py
 ```text
 手写最小随机森林版本
 -> 对照当前实验代码检查理解
--> 模型压缩与蒸馏
+-> 项目最终收口
 ```
