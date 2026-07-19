@@ -8,6 +8,7 @@
 - v2 高质量数据集构建；
 - 随机森林文本分类基线；
 - FastText 字符级/词级文本分类基线；
+- BERT 微调模型加载、评估、预测和 API 验证；
 - TF-IDF 词表泄漏受控实验；
 - 轻量化随机森林模型产物；
 - 实验报告和可复现脚本。
@@ -117,6 +118,16 @@ FastText 的 Windows 原生库无法直接读取包含中文的文件路径。�
 | word_1_default | 0.907407 |
 | word_2_auto | 0.915215 |
 
+### 6. BERT 微调模型复现
+
+项目使用本地 `bert-base-chinese` 预训练权重和已训练好的 BERT 分类权重进行文本分类。当前已验证模型加载、测试集评估、单条预测、一批次训练反向传播和 Flask API 路由。
+
+当前 BERT 测试集评估结果：
+
+| Test Loss | Test Accuracy | Test Macro-F1 |
+|---:|---:|---:|
+| 0.189667 | 0.941542 | 0.941550 |
+
 ## 涉及知识点
 
 ### 数据处理
@@ -143,12 +154,17 @@ FastText 的 Windows 原生库无法直接读取包含中文的文件路径。�
 - jieba 分词；
 - 停用词处理；
 - TF-IDF 特征提取；
+- BERT Tokenizer 编码；
+- 预训练 BERT 下游微调；
 - 词表拟合范围控制；
 - 稀疏矩阵特征建模。
 
 ### 机器学习建模
 
 - RandomForestClassifier；
+- PyTorch Dataset / DataLoader / collate_fn；
+- AdamW 优化器；
+- CrossEntropyLoss；
 - train/dev/test 三集合实验设计；
 - Accuracy、Macro-F1、Weighted-F1 指标；
 - 模型保存与加载；
@@ -173,7 +189,7 @@ FastText 的 Windows 原生库无法直接读取包含中文的文件路径。�
 02-rf/v2/                 v2随机森林实验入口
 02-rf/controlled/         TF-IDF泄漏受控实验
 03-fasttext/              FastText文本分类实验
-04-bert/                  BERT实验，后续处理
+04-bert/                  BERT微调、预测和API实验
 05-llm/                   LLM相关实验，后续处理
 06-bert_distill/          BERT蒸馏实验，后续处理
 reports/day02/            Day 2实验报告
@@ -204,12 +220,16 @@ scikit-learn==1.9.0
 joblib==1.5.3
 matplotlib==3.10.9
 seaborn==0.13.2
+torch==2.13.0
+transformers==4.57.6
+tqdm==4.67.3
 ```
 
 安装依赖：
 
 ```powershell
 pip install -r requirements-day02.txt
+pip install -r requirements-day03.txt
 ```
 
 ## 常用命令
@@ -268,6 +288,20 @@ python 03-fasttext\fasttext_char_2_auto.py
 python 03-fasttext\fasttext_word_2_auto.py
 ```
 
+运行 BERT 离线预测：
+
+```powershell
+python 04-bert\bert_predict_fun.py
+```
+
+运行 BERT 训练脚本：
+
+```powershell
+python 04-bert\bert_train.py
+```
+
+说明：当前配置使用 CPU，完整 BERT 训练耗时较长；本地已通过现有权重完成测试集评估和预测链路验证。
+
 ## 已排除上传的内容
 
 仓库没有上传以下内容：
@@ -285,6 +319,5 @@ python 03-fasttext\fasttext_word_2_auto.py
 ```text
 手写最小随机森林版本
 -> 对照当前实验代码检查理解
--> BERT实验
 -> 模型压缩与蒸馏
 ```
