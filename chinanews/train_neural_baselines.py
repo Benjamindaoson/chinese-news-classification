@@ -28,7 +28,7 @@ class TextCNN(nn.Module):
         self.dropout = nn.Dropout(0.2)
         self.classifier = nn.Linear(256 * 3, num_classes)
 
-    def forward(self, input_ids, attention_mask=None):
+    def forward(self, input_ids, attention_mask=None, token_type_ids=None, **kwargs):
         x = self.embedding(input_ids).transpose(1, 2)
         features = [torch.relu(conv(x)).amax(dim=-1) for conv in self.convs]
         x = torch.cat(features, dim=-1)
@@ -49,7 +49,7 @@ class BiLSTM(nn.Module):
         self.dropout = nn.Dropout(0.2)
         self.classifier = nn.Linear(512, num_classes)
 
-    def forward(self, input_ids, attention_mask=None):
+    def forward(self, input_ids, attention_mask=None, token_type_ids=None, **kwargs):
         x = self.embedding(input_ids)
         output, _ = self.lstm(x)
         if attention_mask is None:
