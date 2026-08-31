@@ -70,9 +70,10 @@ def write_header(handle) -> None:
     handle.write("text\tlabel\n")
 
 
-def validation_bucket(text_hash: str, validation_ratio: float) -> bool:
-    """Deterministic hash split; approximately stratified because applied within every label stream."""
-    bucket = int(text_hash[:8], 16) / 0xFFFFFFFF
+def validation_bucket(key: str, validation_ratio: float) -> bool:
+    """Deterministic hash split; approximately stratified over a large balanced dataset."""
+    digest = stable_hash(key)
+    bucket = int(digest[:8], 16) / 0xFFFFFFFF
     return bucket < validation_ratio
 
 
