@@ -10,3 +10,10 @@ data/model/
 data/bert-base-chinese/
 artifacts/random_forest/baseline/rf_baseline.pkl
 artifacts/random_forest/controlled/*_rf.pkl
+
+# Chinanews million-scale raw/processed data and training outputs.
+external_data/
+data/chinanews/
+outputs/
+*.ckpt
+*.safetensors
