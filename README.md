@@ -1,3 +1,9 @@
+> **LEGACY MODEL-SYSTEMS CASE STUDY**
+>
+> This repository is retained for reproducibility of earlier NLP fine-tuning / compression work.
+> It is not a current flagship project and is no longer the primary representation of the author's LLM/model-systems work.
+> Current flagship model work is listed on the GitHub profile.
+
 # 中文新闻分类与 BERT 模型压缩
 
 一个面向中文文本分类的可复现深度学习实验项目，覆盖 **数据治理 → 多模型基线 → BERT 分类 → 错误分析 → 模型压缩 → 推理服务**。
