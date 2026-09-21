@@ -1,3 +1,5 @@
+> **STATUS: MAINTAINED LEGACY CASE STUDY**
+>
 > **LEGACY MODEL-SYSTEMS CASE STUDY**
 >
 > This repository is retained for reproducibility of earlier NLP fine-tuning / compression work.
